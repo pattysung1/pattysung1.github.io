@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ShinyBear</title>
+    <link>https://pattysung1.github.io/categories/</link>
+    <description>Recent content in Categories on ShinyBear</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 08 Jun 2023 10:04:03 +0800</lastBuildDate><atom:link href="https://pattysung1.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japan日本</title>
+      <link>https://pattysung1.github.io/categories/japan%E6%97%A5%E6%9C%AC/</link>
+      <pubDate>Thu, 08 Jun 2023 10:04:03 +0800</pubDate>
+      
+      <guid>https://pattysung1.github.io/categories/japan%E6%97%A5%E6%9C%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go Language</title>
+      <link>https://pattysung1.github.io/categories/go-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pattysung1.github.io/categories/go-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML &amp; CSS</title>
+      <link>https://pattysung1.github.io/categories/html-css/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pattysung1.github.io/categories/html-css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Design</title>
+      <link>https://pattysung1.github.io/categories/web-design/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://pattysung1.github.io/categories/web-design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
