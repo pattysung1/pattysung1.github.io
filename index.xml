@@ -6,7 +6,30 @@
     <description>Recent content on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 08 Jun 2023 10:04:03 +0800</lastBuildDate><atom:link href="https://pattysung1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Log紀錄</title>
+      <link>https://pattysung1.github.io/works/post-2/</link>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/post-2/</guid>
+      <description>之前在寫Android Studio的時候，會使用
+Log.d(&amp;#34;Patty&amp;#34;, &amp;#34;xx功能&amp;#34;) 來追蹤程式的執行流程，看有沒有印出的值是否正確或有異常，最近在寫Java Spring Boot，這邊的Log功能，需要先於class中撰寫logger，才可以使用：
+import org.slf4j.Logger; import org.</description>
+    </item>
+    
+    <item>
+      <title>ObjectMapper- Java Object和JSON之間的相互轉換</title>
+      <link>https://pattysung1.github.io/works/objectmapper/</link>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/objectmapper/</guid>
+      <description>目前在幫ShinyBear品牌做電商網站，在前後端的傳遞資訊時，時常使用到Json，而使用ObjectMapper，可以將Json字串及Java Object互相作轉換。
+但注意，要記得在pom.xql中加上spring-boot-starter-web
+&amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-web&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt; 說明 ObjectMapper是一個Java庫，用於處理Java對象和JSON之間的相互轉換。它提供了一種簡單而靈活的方法，可將Java對象序列化為JSON格式的字符串，並將JSON字符串反序列化為Java對象。使用ObjectMapper能夠在處理JSON數據時變得更加便捷。
+以下是ObjectMapper的一些常見用法(1.2較常用)： 將Java對象轉換為JSON字符串：(writeValueAsString()) ObjectMapper objectMapper = new ObjectMapper(); YourObject obj = new YourObject(); String jsonString = objectMapper.</description>
+    </item>
+    
     <item>
       <title>2023/5 【大阪-名古屋-黑部立山-吉卜力公園】-交通篇</title>
       <link>https://pattysung1.github.io/travel/post-1/</link>
@@ -32,25 +55,7 @@
     </item>
     
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://pattysung1.github.io/works/post-1/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/post-1/</guid>
-      <description>2023 日本大阪-名古屋-黑部立山 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://pattysung1.github.io/works/post-2/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/post-2/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
+      <title>How To Use Checklists To Improve Your UX2</title>
       <link>https://pattysung1.github.io/works/post-3/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
@@ -59,7 +64,7 @@
     </item>
     
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
+      <title>How To Use Checklists To Improve Your UX3</title>
       <link>https://pattysung1.github.io/works/post-4/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       

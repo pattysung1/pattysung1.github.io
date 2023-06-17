@@ -6,18 +6,20 @@
     <description>Recent content in New on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/new/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/new/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
+      <title>Log紀錄</title>
       <link>https://pattysung1.github.io/works/post-2/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/post-2/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <description>之前在寫Android Studio的時候，會使用
+Log.d(&amp;#34;Patty&amp;#34;, &amp;#34;xx功能&amp;#34;) 來追蹤程式的執行流程，看有沒有印出的值是否正確或有異常，最近在寫Java Spring Boot，這邊的Log功能，需要先於class中撰寫logger，才可以使用：
+import org.slf4j.Logger; import org.</description>
     </item>
     
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
+      <title>How To Use Checklists To Improve Your UX2</title>
       <link>https://pattysung1.github.io/works/post-3/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
@@ -26,7 +28,7 @@
     </item>
     
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
+      <title>How To Use Checklists To Improve Your UX3</title>
       <link>https://pattysung1.github.io/works/post-4/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
