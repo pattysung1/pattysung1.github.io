@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>PattySung</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is Patty Sung&#39;s website.">
+  <meta name="author" content="PattySung">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.113.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VP4BXRRG1X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VP4BXRRG1X');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://pattysung1.github.io"><img class="img-fluid"
+          src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/shinybearfamily?s=21&amp;t=TNehV3PHQsHhY05bzFJ-Jg"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw=="><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/settings/profile"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://pattysung1.github.io"><img class="img-fluid"
+            src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/works/">Works</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/travel/">Travel</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/contact/">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/programming"
+          class="text-primary">Programming</a>
+        
+        <h2>Leetcode-13. Roman to Integer</h2>
+        <div class="mb-3 post-meta">
+          <span>By PattySung</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>25 June 2023</span>
+          
+        </div>
+        
+        <img src="https://pattysung1.github.io/images/leetcode.jpg" class="img-fluid w-80 mb-4" alt="Leetcode-13. Roman to Integer">
+        
+        <div class="content mb-5">
+          <p>Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.</p>
+<p>Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.</p>
+<p>Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:</p>
+<p>I can be placed before V (5) and X (10) to make 4 and 9.
+X can be placed before L (50) and C (100) to make 40 and 90.
+C can be placed before D (500) and M (1000) to make 400 and 900.
+Given a roman numeral, convert it to an integer.</p>
+<pre tabindex="0"><code>Example 1:
+
+Input: s = &#34;III&#34;
+Output: 3
+Explanation: III = 3.
+
+Example 2:
+
+Input: s = &#34;LVIII&#34;
+Output: 58
+Explanation: L = 50, V= 5, III = 3.
+
+Example 3:
+
+Input: s = &#34;MCMXCIV&#34;
+Output: 1994
+Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+</code></pre><h4 id="解題">&lt;解題&gt;</h4>
+<ol>
+<li>先定義每一個字元對應的Value -&gt; HashMap</li>
+<li>值大的字母擺在越前面，故從前面往後找，當下一位字母的值比前位大時，要用減法</li>
+<li>減法計算：記得減去前一位的2倍（因為本來被加過一次了，所以要扣回）</li>
+</ol>
+<h5 id="1-對應字元-直接用字元比較好">1. 對應字元-&gt;直接用字元比較好</h5>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">romanToInt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">result</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span> <span style="color:#99d1db">!=</span> <span style="color:#a6d189">&#34;&#34;</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Character</span><span style="color:#99d1db">,</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">map</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Character</span><span style="color:#99d1db">,</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;();</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;I&#39;</span><span style="color:#99d1db">,</span> 1<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;V&#39;</span><span style="color:#99d1db">,</span> 5<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;X&#39;</span><span style="color:#99d1db">,</span> 10<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;L&#39;</span><span style="color:#99d1db">,</span> 50<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;C&#39;</span><span style="color:#99d1db">,</span> 100<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;D&#39;</span><span style="color:#99d1db">,</span> 500<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;M&#39;</span><span style="color:#99d1db">,</span> 1000<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0 <span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">()</span> <span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">Character</span> <span style="color:#babbf1">temp</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">charAt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#e5c890">int</span> <span style="color:#babbf1">value</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> 
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">containsKey</span><span style="color:#99d1db">(</span><span style="color:#babbf1">temp</span><span style="color:#99d1db">)){</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">value</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">temp</span><span style="color:#99d1db">);</span> <span style="color:#626880;font-style:italic">//字元的值
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                    <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span> <span style="color:#99d1db">!=</span> 0 <span style="color:#99d1db">&amp;&amp;</span>  <span style="color:#99d1db">(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">charAt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">-</span>1<span style="color:#99d1db">))</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#babbf1">value</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">value</span> <span style="color:#99d1db">-</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">charAt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">-</span>1<span style="color:#99d1db">))*</span>2<span style="color:#99d1db">);</span> <span style="color:#626880;font-style:italic">//減去前面數本身*2
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">result</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">result</span> <span style="color:#99d1db">+</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">result</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><h5 id="2-對應字串但之後記得要轉換">2. 對應字串，但之後記得要轉換</h5>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">romanToInt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">result</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span> <span style="color:#99d1db">!=</span> <span style="color:#a6d189">&#34;&#34;</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">,</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">map</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">,</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;();</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;I&#34;</span><span style="color:#99d1db">,</span> 1<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;V&#34;</span><span style="color:#99d1db">,</span> 5<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;X&#34;</span><span style="color:#99d1db">,</span> 10<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;L&#34;</span><span style="color:#99d1db">,</span> 50<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;C&#34;</span><span style="color:#99d1db">,</span> 100<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;D&#34;</span><span style="color:#99d1db">,</span> 500<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;M&#34;</span><span style="color:#99d1db">,</span> 1000<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0 <span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">()</span> <span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">String</span> <span style="color:#babbf1">temp</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">charAt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">)+</span><span style="color:#a6d189">&#34;&#34;</span><span style="color:#99d1db">;</span> <span style="color:#626880;font-style:italic">//把字元轉成字串
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic">//                String temp = Character.toString(s.charAt(i)); //把字元轉成字串
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>                <span style="color:#e5c890">int</span> <span style="color:#babbf1">value</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">containsKey</span><span style="color:#99d1db">(</span><span style="color:#babbf1">temp</span><span style="color:#99d1db">)){</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">value</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">temp</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span> <span style="color:#99d1db">!=</span> 0 <span style="color:#99d1db">&amp;&amp;</span>  <span style="color:#99d1db">(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">charAt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">-</span>1<span style="color:#99d1db">)+</span><span style="color:#a6d189">&#34;&#34;</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#babbf1">value</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">value</span> <span style="color:#99d1db">-</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">charAt</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">-</span>1<span style="color:#99d1db">)+</span><span style="color:#a6d189">&#34;&#34;</span><span style="color:#99d1db">))*</span>2<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">result</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">result</span> <span style="color:#99d1db">+</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">result</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><h4 id="補充字元轉字串">&lt;補充&gt;字元轉字串</h4>
+<pre tabindex="0"><code>1. String temp = s.charAt(i)+&#34;&#34;; //把字元轉成字串
+2. String temp = Character.toString(s.charAt(i)); //把字元轉成字串
+
+3. Integer.valueOf() 方法用於將字串轉換為整數，而不是將單個&#34;字元&#34;轉換為整數。
+</code></pre><h4 id="補充hashmap-containskey-方法">&lt;補充&gt;HashMap containsKey() 方法</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">import</span> <span style="color:#e5c890">java.util.HashMap</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Main</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#ca9ee6">static</span> <span style="color:#e5c890">void</span> <span style="color:#99d1db">main</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">args</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">String</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">sites</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">sites</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span>1<span style="color:#99d1db">,</span> <span style="color:#a6d189">&#34;Google&#34;</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">sites</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span>2<span style="color:#99d1db">,</span> <span style="color:#a6d189">&#34;Yahoo&#34;</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">sites</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span>3<span style="color:#99d1db">,</span> <span style="color:#a6d189">&#34;Apple&#34;</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">System</span><span style="color:#99d1db">.</span><span style="color:#e5c890">out</span><span style="color:#99d1db">.</span><span style="color:#e5c890">println</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;sites HashMap: &#34;</span> <span style="color:#99d1db">+</span> <span style="color:#babbf1">sites</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">//檢查是否存在
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">sites</span><span style="color:#99d1db">.</span><span style="color:#e5c890">containsKey</span><span style="color:#99d1db">(</span>1<span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">System</span><span style="color:#99d1db">.</span><span style="color:#e5c890">out</span><span style="color:#99d1db">.</span><span style="color:#e5c890">printf</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;key %d 存在於 sites 中%n&#34;</span><span style="color:#99d1db">,</span> 1<span style="color:#99d1db">);</span> <span style="color:#626880;font-style:italic">//若要使用格式化字符
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#babbf1">System</span><span style="color:#99d1db">.</span><span style="color:#e5c890">out</span><span style="color:#99d1db">.</span><span style="color:#e5c890">println</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;key &#34;</span> <span style="color:#99d1db">+</span> 1 <span style="color:#99d1db">+</span> <span style="color:#a6d189">&#34; 存在於 sites 中&#34;</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">//若不存在，則新增
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">sites</span><span style="color:#99d1db">.</span><span style="color:#e5c890">containsKey</span><span style="color:#99d1db">(</span>4<span style="color:#99d1db">)){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">sites</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span>4<span style="color:#99d1db">,</span> <span style="color:#a6d189">&#34;Tesla&#34;</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">System</span><span style="color:#99d1db">.</span><span style="color:#e5c890">out</span><span style="color:#99d1db">.</span><span style="color:#e5c890">println</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;New sites HashMap:&#34;</span> <span style="color:#99d1db">+</span> <span style="color:#babbf1">sites</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><h4 id="補充格式化字符">&lt;補充&gt;格式化字符</h4>
+<pre tabindex="0"><code>
+//檢查是否存在
+        if(sites.containsKey(1)) {
+            System.out.printf(&#34;key %d 存在於 sites 中%n&#34;, 1); //若要使用格式化字符
+            System.out.println(&#34;key &#34; + 1 + &#34; 存在於 sites 中&#34;);
+        }
+</code></pre>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <br>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:a9870456321"><i
+                class="ti-mobile mr-3 text-primary"></i>a9870456321</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:sungpeihsuannccu@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>sungpeihsuannccu@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/shinybearfamily?s=21&amp;t=TNehV3PHQsHhY05bzFJ-Jg">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw==">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/settings/profile">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/japan%e6%97%a5%e6%9c%ac/">Japan日本</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/programming/">Programming</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/about/">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/works/">Works</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/travel/">Travel</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/contact/">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2023 <a href="https://pattysung1.github.io/">PattySung</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://pattysung1.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://pattysung1.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/mark.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://pattysung1.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

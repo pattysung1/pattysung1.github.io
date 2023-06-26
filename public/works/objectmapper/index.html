@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="this is meta description">
+  <meta name="description" content="This is Patty Sung&#39;s website.">
   <meta name="author" content="PattySung">
     
   
@@ -155,7 +155,7 @@
 </span></span><span style="display:flex;"><span>			<span style="color:#99d1db">&lt;</span><span style="color:#babbf1">groupId</span><span style="color:#99d1db">&gt;</span><span style="color:#babbf1">org</span><span style="color:#99d1db">.</span><span style="color:#e5c890">springframework</span><span style="color:#99d1db">.</span><span style="color:#e5c890">boot</span><span style="color:#99d1db">&lt;/</span><span style="color:#babbf1">groupId</span><span style="color:#99d1db">&gt;</span>
 </span></span><span style="display:flex;"><span>			<span style="color:#99d1db">&lt;</span><span style="color:#babbf1">artifactId</span><span style="color:#99d1db">&gt;</span><span style="color:#babbf1">spring</span><span style="color:#99d1db">-</span><span style="color:#babbf1">boot</span><span style="color:#99d1db">-</span><span style="color:#babbf1">starter</span><span style="color:#99d1db">-</span><span style="color:#babbf1">web</span><span style="color:#99d1db">&lt;/</span><span style="color:#babbf1">artifactId</span><span style="color:#99d1db">&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">&lt;/</span><span style="color:#babbf1">dependency</span><span style="color:#99d1db">&gt;</span>
-</span></span></code></pre></div><h3 id="說明">說明</h3>
+</span></span></code></pre></div><h4 id="說明">說明</h4>
 <p>ObjectMapper是一個Java庫，用於處理Java對象和JSON之間的相互轉換。它提供了一種簡單而靈活的方法，可將Java對象序列化為JSON格式的字符串，並將JSON字符串反序列化為Java對象。使用ObjectMapper能夠在處理JSON數據時變得更加便捷。</p>
 <h3 id="以下是objectmapper的一些常見用法12較常用">以下是ObjectMapper的一些常見用法(1.2較常用)：</h3>
 <ol>
@@ -184,7 +184,22 @@
 </span></span><span style="display:flex;"><span><span style="color:#babbf1">String</span> <span style="color:#babbf1">jsonString</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">objectMapper</span><span style="color:#99d1db">.</span><span style="color:#e5c890">writeValueAsString</span><span style="color:#99d1db">(</span><span style="color:#babbf1">obj</span><span style="color:#99d1db">);</span>
 </span></span></code></pre></div><p>ObjectMapper提供了處理日期格式、處理集合類型、自定義序列化和反序列化等特殊情況的功能。
 可以依照要規劃的功能做使用，不過主要還是前兩者使用的多。</p>
-
+<h3 id="jsonproperty-註解使得json的key和java變數可以做轉換">@Jsonproperty: 註解使得Json的key和Java變數可以做轉換</h3>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">public</span> <span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Person</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f4b8e4">@JsonProperty</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;first_name&#34;</span><span style="color:#99d1db">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">private</span> <span style="color:#babbf1">String</span> <span style="color:#babbf1">firstName</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f4b8e4">@JsonProperty</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;last_name&#34;</span><span style="color:#99d1db">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">private</span> <span style="color:#babbf1">String</span> <span style="color:#babbf1">lastName</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f4b8e4">@JsonProperty</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#34;age&#34;</span><span style="color:#99d1db">)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">private</span> <span style="color:#e5c890">int</span> <span style="color:#babbf1">age</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#626880;font-style:italic">// getters and setters...
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div>
         </div>
 
         

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASCII on PattySung</title>
+    <link>https://pattysung1.github.io/tags/ascii/</link>
+    <description>Recent content in ASCII on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/ascii/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>將字元轉換成ASCII值</title>
+      <link>https://pattysung1.github.io/works/leetcode-ascii/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-ascii/</guid>
+      <description>以下是幾種方法可以將字元轉換為 ASCII 值： 1. 使用 (int) 類型轉換： char c = &amp;#39;a&amp;#39;; int asciiValue = (int) c; System.</description>
+    </item>
+    
+  </channel>
+</rss>
