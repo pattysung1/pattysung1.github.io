@@ -8,6 +8,15 @@
     <language>zh-tw</language>
     <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Leetcode-122. Best Time to Buy and Sell Stock II</title>
+      <link>https://pattysung1.github.io/works/leetcode-122/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-122/</guid>
+      <description>You are given an integer array prices where prices[i] is the price of a given stock on the ith day.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-242. Valid Anagram</title>
       <link>https://pattysung1.github.io/works/leetcode-242/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
@@ -44,6 +53,24 @@
     </item>
     
     <item>
+      <title>Leetcode-49. Group Anagrams</title>
+      <link>https://pattysung1.github.io/works/leetcode-49/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-49/</guid>
+      <description>Given an array of strings strs, group the anagrams together. You can return the answer in any order.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-55. Jump Game</title>
+      <link>https://pattysung1.github.io/works/leetcode-55/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-55/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
       <title>Leetcode-88. Merge Sorted Array</title>
       <link>https://pattysung1.github.io/works/leetcode-88/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
@@ -63,38 +90,20 @@
     
     <item>
       <title>Leetcode-</title>
-      <link>https://pattysung1.github.io/works/leetcode-copy-2/</link>
-      <pubDate>Sun, 25 Jun 2023 10:07:47 +0600</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-copy-2/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-</title>
-      <link>https://pattysung1.github.io/works/leetcode-copy-3/</link>
-      <pubDate>Sun, 25 Jun 2023 10:07:47 +0600</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-copy-3/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-</title>
-      <link>https://pattysung1.github.io/works/leetcode-copy/</link>
-      <pubDate>Sun, 25 Jun 2023 10:07:47 +0600</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-copy/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-</title>
       <link>https://pattysung1.github.io/works/leetcode-/</link>
       <pubDate>Sun, 25 Jun 2023 10:07:47 +0600</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-/</guid>
       <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-121. Best Time to Buy and Sell Stock</title>
+      <link>https://pattysung1.github.io/works/leetcode-121/</link>
+      <pubDate>Sun, 25 Jun 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-121/</guid>
+      <description>You are given an array prices where prices[i] is the price of a given stock on the ith day.</description>
     </item>
     
     <item>
