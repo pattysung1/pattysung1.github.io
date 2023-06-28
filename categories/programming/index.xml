@@ -6,13 +6,175 @@
     <description>Recent content in Programming on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 17 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-2. Add Two Numbers</title>
+      <link>https://pattysung1.github.io/works/leetcode-2/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-2/</guid>
+      <description>You are given two non-empty linked lists representing two non-negative integers.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-21. Merge Two Sorted Lists</title>
+      <link>https://pattysung1.github.io/works/leetcode-21/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-21/</guid>
+      <description>You are given the heads of two sorted linked lists list1 and list2.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-copy-2/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-copy-2/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-1. Two Sum</title>
+      <link>https://pattysung1.github.io/works/leetcode-1/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-1/</guid>
+      <description>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-141. Linked List Cycle</title>
+      <link>https://pattysung1.github.io/works/leetcode-141/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-141/</guid>
+      <description>Given head, the head of a linked list, determine if the linked list has a cycle in it.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-121. Best Time to Buy and Sell Stock</title>
+      <link>https://pattysung1.github.io/works/leetcode-121/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-121/</guid>
+      <description>You are given an array prices where prices[i] is the price of a given stock on the ith day.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-122. Best Time to Buy and Sell Stock II</title>
+      <link>https://pattysung1.github.io/works/leetcode-122/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-122/</guid>
+      <description>You are given an integer array prices where prices[i] is the price of a given stock on the ith day.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-242. Valid Anagram</title>
+      <link>https://pattysung1.github.io/works/leetcode-242/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-242/</guid>
+      <description>Given two strings s and t, return true if t is an anagram of s, and false otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-26. Remove Duplicates from Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-26/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-26/</guid>
+      <description>Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-27. Remove Element</title>
+      <link>https://pattysung1.github.io/works/leetcode-27/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-27/</guid>
+      <description>Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-28. Find the Index of the First Occurrence in a String</title>
+      <link>https://pattysung1.github.io/works/leetcode-28/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-28/</guid>
+      <description>Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-49. Group Anagrams</title>
+      <link>https://pattysung1.github.io/works/leetcode-49/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-49/</guid>
+      <description>Given an array of strings strs, group the anagrams together. You can return the answer in any order.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-55. Jump Game</title>
+      <link>https://pattysung1.github.io/works/leetcode-55/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-55/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-88. Merge Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-88/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-88/</guid>
+      <description>You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.</description>
+    </item>
+    
+    <item>
+      <title>將字元轉換成ASCII值</title>
+      <link>https://pattysung1.github.io/works/leetcode-ascii/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-ascii/</guid>
+      <description>以下是幾種方法可以將字元轉換為 ASCII 值： 1. 使用 (int) 類型轉換： char c = &amp;#39;a&amp;#39;; int asciiValue = (int) c; System.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-13. Roman to Integer</title>
+      <link>https://pattysung1.github.io/works/leetcode-13/</link>
+      <pubDate>Sun, 25 Jun 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-13/</guid>
+      <description>Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-58. Length of Last Word</title>
+      <link>https://pattysung1.github.io/works/leetcode-58/</link>
+      <pubDate>Sun, 25 Jun 2023 10:07:47 +0600</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-58/</guid>
+      <description>Given a string s consisting of words and spaces, return the length of the last word in the string.</description>
+    </item>
+    
     <item>
       <title>Log紀錄</title>
-      <link>https://pattysung1.github.io/works/post-2/</link>
+      <link>https://pattysung1.github.io/works/log/</link>
       <pubDate>Sat, 17 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://pattysung1.github.io/works/post-2/</guid>
+      <guid>https://pattysung1.github.io/works/log/</guid>
       <description>之前在寫Android Studio的時候，會使用
 Log.d(&amp;#34;Patty&amp;#34;, &amp;#34;xx功能&amp;#34;) 來追蹤程式的執行流程，看有沒有印出的值是否正確或有異常，最近在寫Java Spring Boot，這邊的Log功能，需要先於class中撰寫logger，才可以使用：
 import org.slf4j.Logger; import org.</description>
@@ -28,24 +190,6 @@ import org.slf4j.Logger; import org.</description>
 但注意，要記得在pom.xql中加上spring-boot-starter-web
 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-web&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt; 說明 ObjectMapper是一個Java庫，用於處理Java對象和JSON之間的相互轉換。它提供了一種簡單而靈活的方法，可將Java對象序列化為JSON格式的字符串，並將JSON字符串反序列化為Java對象。使用ObjectMapper能夠在處理JSON數據時變得更加便捷。
 以下是ObjectMapper的一些常見用法(1.2較常用)： 將Java對象轉換為JSON字符串：(writeValueAsString()) ObjectMapper objectMapper = new ObjectMapper(); YourObject obj = new YourObject(); String jsonString = objectMapper.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX2</title>
-      <link>https://pattysung1.github.io/works/post-3/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/post-3/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX3</title>
-      <link>https://pattysung1.github.io/works/post-4/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/post-4/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
   </channel>
