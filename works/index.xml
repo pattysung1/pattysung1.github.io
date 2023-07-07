@@ -8,6 +8,132 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://pattysung1.github.io/works/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-160. Intersection of Two Linked Lists</title>
+      <link>https://pattysung1.github.io/works/leetcode-160/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-160/</guid>
+      <description>Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-232. Implement Queue using Stacks</title>
+      <link>https://pattysung1.github.io/works/leetcode-232-copy-2/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-232-copy-2/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-232. Implement Queue using Stacks</title>
+      <link>https://pattysung1.github.io/works/leetcode-232-copy-3/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-232-copy-3/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-232. Implement Queue using Stacks</title>
+      <link>https://pattysung1.github.io/works/leetcode-232-copy/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-232-copy/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-232. Implement Queue using Stacks</title>
+      <link>https://pattysung1.github.io/works/leetcode-232/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-232/</guid>
+      <description>Implement a first in first out (FIFO) queue using only two stacks.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-82. Remove Duplicates from Sorted List II</title>
+      <link>https://pattysung1.github.io/works/leetcode-82/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-82/</guid>
+      <description>Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-83. Remove Duplicates from Sorted List</title>
+      <link>https://pattysung1.github.io/works/leetcode-83/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-83/</guid>
+      <description>Given the head of a sorted linked list, delete all duplicates such that each element appears only once.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-151. Reverse Words in a String*</title>
+      <link>https://pattysung1.github.io/works/leetcode-151/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-151/</guid>
+      <description>Given an input string s, reverse the order of the words.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-189. Rotate Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-189/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-189/</guid>
+      <description>Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-19. Remove Nth Node From End of List</title>
+      <link>https://pattysung1.github.io/works/leetcode-19/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-19/</guid>
+      <description>Given the head of a linked list, remove the nth node from the end of the list and return its head.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-217. Contains Duplicate</title>
+      <link>https://pattysung1.github.io/works/leetcode-217/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-217/</guid>
+      <description>Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-61. Rotate List</title>
+      <link>https://pattysung1.github.io/works/leetcode-61/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-61/</guid>
+      <description>Given the head of a linked list, rotate the list to the right by k places.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-80. Remove Duplicates from Sorted Array II</title>
+      <link>https://pattysung1.github.io/works/leetcode-80/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-80/</guid>
+      <description>Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-2. Add Two Numbers</title>
       <link>https://pattysung1.github.io/works/leetcode-2/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
@@ -17,30 +143,21 @@
     </item>
     
     <item>
+      <title>Leetcode-206. Reverse Linked List</title>
+      <link>https://pattysung1.github.io/works/leetcode-206/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-206/</guid>
+      <description>Given the head of a singly linked list, reverse the list, and return the reversed list.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-21. Merge Two Sorted Lists</title>
       <link>https://pattysung1.github.io/works/leetcode-21/</link>
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-21/</guid>
       <description>You are given the heads of two sorted linked lists list1 and list2.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-</title>
-      <link>https://pattysung1.github.io/works/leetcode-copy-2/</link>
-      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-copy-2/</guid>
-      <description>&amp;lt;解題&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Leetcode-</title>
-      <link>https://pattysung1.github.io/works/leetcode-/</link>
-      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
     <item>
@@ -59,6 +176,15 @@
       
       <guid>https://pattysung1.github.io/works/leetcode-141/</guid>
       <description>Given head, the head of a linked list, determine if the linked list has a cycle in it.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-55. Jump Game</title>
+      <link>https://pattysung1.github.io/works/leetcode-55/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-55/</guid>
+      <description>You are given an integer array nums. You are initially positioned at the array&amp;rsquo;s first index, and each element in the array represents your maximum jump length at that position.</description>
     </item>
     
     <item>
@@ -130,7 +256,7 @@
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-55/</guid>
-      <description>&amp;lt;解題&amp;gt; </description>
+      <description>You are given an integer array nums. You are initially positioned at the array&amp;rsquo;s first index, and each element in the array represents your maximum jump length at that position.</description>
     </item>
     
     <item>
