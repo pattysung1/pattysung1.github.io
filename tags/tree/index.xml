@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tree on PattySung</title>
+    <link>https://pattysung1.github.io/tags/tree/</link>
+    <description>Recent content in tree on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-100. Same Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-100/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-100/</guid>
+      <description>Given the roots of two binary trees p and q, write a function to check if they are the same or not.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-110. Balanced Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-110/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-110/</guid>
+      <description>Given a binary tree, determine if it is height-balanced.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-104. Maximum Depth of Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-104/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-104/</guid>
+      <description>Given the root of a binary tree, return its maximum depth.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-226. Invert Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-226/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-226/</guid>
+      <description>Given the root of a binary tree, invert the tree, and return its root.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-543. Diameter of Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-543/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-543/</guid>
+      <description>Given the root of a binary tree, return the length of the diameter of the tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-704. Binary Search</title>
+      <link>https://pattysung1.github.io/works/leetcode-704/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-704/</guid>
+      <description>Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums.</description>
+    </item>
+    
+  </channel>
+</rss>

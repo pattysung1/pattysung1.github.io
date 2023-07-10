@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on PattySung</title>
+    <link>https://pattysung1.github.io/tags/test/</link>
+    <description>Recent content in test on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

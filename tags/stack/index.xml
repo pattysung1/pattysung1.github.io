@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stack on PattySung</title>
+    <link>https://pattysung1.github.io/tags/stack/</link>
+    <description>Recent content in Stack on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-71. Simplify Path</title>
+      <link>https://pattysung1.github.io/works/leetcode-71/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-71/</guid>
+      <description>Given a string path, which is an absolute path (starting with a slash &amp;lsquo;/&amp;rsquo;) to a file or directory in a Unix-style file system, convert it to the simplified canonical path.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-20. Valid Parentheses</title>
+      <link>https://pattysung1.github.io/works/leetcode-20/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-20/</guid>
+      <description>Given a string s containing just the characters &amp;lsquo;(&amp;rsquo;, &amp;lsquo;)&amp;rsquo;, &amp;lsquo;{&amp;rsquo;, &amp;lsquo;}&amp;rsquo;, &amp;lsquo;[&amp;rsquo; and &amp;lsquo;]&amp;rsquo;, determine if the input string is valid.</description>
+    </item>
+    
+  </channel>
+</rss>

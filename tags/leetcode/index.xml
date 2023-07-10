@@ -6,14 +6,114 @@
     <description>Recent content in leetcode on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leetcode-</title>
       <link>https://pattysung1.github.io/works/leetcode-/</link>
-      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-/</guid>
       <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-100. Same Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-100/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-100/</guid>
+      <description>Given the roots of two binary trees p and q, write a function to check if they are the same or not.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-110. Balanced Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-110/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-110/</guid>
+      <description>Given a binary tree, determine if it is height-balanced.
+Example 1:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-104. Maximum Depth of Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-104/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-104/</guid>
+      <description>Given the root of a binary tree, return its maximum depth.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-226. Invert Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-226/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-226/</guid>
+      <description>Given the root of a binary tree, invert the tree, and return its root.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-387. First Unique Character in a String</title>
+      <link>https://pattysung1.github.io/works/leetcode-387/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-387/</guid>
+      <description>Given a string s, find the first non-repeating character in it and return its index.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-543. Diameter of Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-543/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-543/</guid>
+      <description>Given the root of a binary tree, return the length of the diameter of the tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-704. Binary Search</title>
+      <link>https://pattysung1.github.io/works/leetcode-704/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-704/</guid>
+      <description>Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-739. Daily Temperatures</title>
+      <link>https://pattysung1.github.io/works/leetcode-739/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-739/</guid>
+      <description>&amp;lt;解題&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Leetcode-234. Palindrome Linked List</title>
+      <link>https://pattysung1.github.io/works/leetcode-234/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-234/</guid>
+      <description>Given the head of a singly linked list, return true if it is a palindrome or false otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-71. Simplify Path</title>
+      <link>https://pattysung1.github.io/works/leetcode-71/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-71/</guid>
+      <description>Given a string path, which is an absolute path (starting with a slash &amp;lsquo;/&amp;rsquo;) to a file or directory in a Unix-style file system, convert it to the simplified canonical path.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-20. Valid Parentheses</title>
+      <link>https://pattysung1.github.io/works/leetcode-20/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-20/</guid>
+      <description>Given a string s containing just the characters &amp;lsquo;(&amp;rsquo;, &amp;lsquo;)&amp;rsquo;, &amp;lsquo;{&amp;rsquo;, &amp;lsquo;}&amp;rsquo;, &amp;lsquo;[&amp;rsquo; and &amp;lsquo;]&amp;rsquo;, determine if the input string is valid.</description>
     </item>
     
     <item>
@@ -23,33 +123,6 @@
       
       <guid>https://pattysung1.github.io/works/leetcode-160/</guid>
       <description>Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-232. Implement Queue using Stacks</title>
-      <link>https://pattysung1.github.io/works/leetcode-232-copy-2/</link>
-      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-232-copy-2/</guid>
-      <description>&amp;lt;解題&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Leetcode-232. Implement Queue using Stacks</title>
-      <link>https://pattysung1.github.io/works/leetcode-232-copy-3/</link>
-      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-232-copy-3/</guid>
-      <description>&amp;lt;解題&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Leetcode-232. Implement Queue using Stacks</title>
-      <link>https://pattysung1.github.io/works/leetcode-232-copy/</link>
-      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-232-copy/</guid>
-      <description>&amp;lt;解題&amp;gt; </description>
     </item>
     
     <item>
