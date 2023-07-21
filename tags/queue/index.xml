@@ -6,7 +6,16 @@
     <description>Recent content in Queue on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-637. Average of Levels in Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-637/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-637/</guid>
+      <description>Given the root of a binary tree, return the average value of the nodes on each level in the form of an array.</description>
+    </item>
+    
     <item>
       <title>Leetcode-232. Implement Queue using Stacks</title>
       <link>https://pattysung1.github.io/works/leetcode-232/</link>

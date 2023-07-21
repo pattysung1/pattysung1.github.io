@@ -6,14 +6,168 @@
     <description>Recent content on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leetcode-</title>
       <link>https://pattysung1.github.io/works/leetcode-/</link>
-      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-/</guid>
-      <description>&amp;lt;解題&amp;gt; </description>
+      <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-117. Populating Next Right Pointers in Each Node II</title>
+      <link>https://pattysung1.github.io/works/leetcode-117/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-117/</guid>
+      <description>Given a binary tree
+struct Node { int val; Node *left; Node *right; Node *next; } Populate each next pointer to point to its next right node.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-73. Set Matrix Zeroes</title>
+      <link>https://pattysung1.github.io/works/leetcode-73/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-73/</guid>
+      <description>Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0&amp;rsquo;s.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-118. Pascal&#39;s Triangle</title>
+      <link>https://pattysung1.github.io/works/leetcode-118/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-118/</guid>
+      <description>Given an integer numRows, return the first numRows of Pascal&amp;rsquo;s triangle.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-133. Clone Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-133/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-133/</guid>
+      <description>Given a reference of a node in a connected undirected graph.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-200. Number of Islands</title>
+      <link>https://pattysung1.github.io/works/leetcode-200/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-200/</guid>
+      <description>Given an m x n 2D binary grid grid which represents a map of &amp;lsquo;1&amp;rsquo;s (land) and &amp;lsquo;0&amp;rsquo;s (water), return the number of islands.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-79. Word Search</title>
+      <link>https://pattysung1.github.io/works/leetcode-79/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-79/</guid>
+      <description>Given an m x n grid of characters board and a string word, return true if word exists in the grid.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-1791. Find Center of Star Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-1791/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-1791/</guid>
+      <description>There is an undirected star graph consisting of n nodes labeled from 1 to n.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-1971. Find if Path Exists in Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-1971/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-1971/</guid>
+      <description>There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n - 1 (inclusive).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-997. Find the Town Judge</title>
+      <link>https://pattysung1.github.io/works/leetcode-997/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-997/</guid>
+      <description>In a town, there are n people labeled from 1 to n.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-230. Kth Smallest Element in a BST</title>
+      <link>https://pattysung1.github.io/works/leetcode-230/</link>
+      <pubDate>Fri, 14 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-230/</guid>
+      <description>Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-105. Construct Binary Tree from Preorder and Inorder Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-105/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-105/</guid>
+      <description>Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-101. Symmetric Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-101/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-101/</guid>
+      <description>Given the root of a binary tree, check whether it is a mirror of itself (i.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-112. Path Sum</title>
+      <link>https://pattysung1.github.io/works/leetcode-112/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-112/</guid>
+      <description>Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-235. Lowest Common Ancestor of a Binary Search Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-235/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-235/</guid>
+      <description>Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-236. Lowest Common Ancestor of a Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-236/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-236/</guid>
+      <description>Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-530. Minimum Absolute Difference in BST</title>
+      <link>https://pattysung1.github.io/works/leetcode-530/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-530/</guid>
+      <description>Given the root of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-637. Average of Levels in Binary Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-637/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-637/</guid>
+      <description>Given the root of a binary tree, return the average value of the nodes on each level in the form of an array.</description>
     </item>
     
     <item>
@@ -33,6 +187,25 @@
       <guid>https://pattysung1.github.io/works/leetcode-110/</guid>
       <description>Given a binary tree, determine if it is height-balanced.
 Example 1:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-572. Subtree of Another Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-572/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-572/</guid>
+      <description>Given the roots of two binary trees root and subRoot, return true if there is a subtree of root with the same structure and node values of subRoot and false otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Queue</title>
+      <link>https://pattysung1.github.io/works/queue/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/queue/</guid>
+      <description>在使用 Java 的 Queue 接口時，可以使用以下方法進行操作： offer(element): 將元素插入到佇列的尾部，如果成功插入，返回 true；如果無法插入（例如因為佇列已滿），返回 false。
+add(element): 將元素插入到佇列的尾部，如果成功插入，返回 true；如果無法插入（例如因為佇列已滿），則拋出一個 unchecked 異常（IllegalStateException）。</description>
     </item>
     
     <item>

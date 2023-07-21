@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graph on PattySung</title>
+    <link>https://pattysung1.github.io/tags/graph/</link>
+    <description>Recent content in graph on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
+      <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-133. Clone Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-133/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-133/</guid>
+      <description>Given a reference of a node in a connected undirected graph.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-200. Number of Islands</title>
+      <link>https://pattysung1.github.io/works/leetcode-200/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-200/</guid>
+      <description>Given an m x n 2D binary grid grid which represents a map of &amp;lsquo;1&amp;rsquo;s (land) and &amp;lsquo;0&amp;rsquo;s (water), return the number of islands.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-79. Word Search</title>
+      <link>https://pattysung1.github.io/works/leetcode-79/</link>
+      <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-79/</guid>
+      <description>Given an m x n grid of characters board and a string word, return true if word exists in the grid.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-1791. Find Center of Star Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-1791/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-1791/</guid>
+      <description>There is an undirected star graph consisting of n nodes labeled from 1 to n.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-1971. Find if Path Exists in Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-1971/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-1971/</guid>
+      <description>There is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n - 1 (inclusive).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-997. Find the Town Judge</title>
+      <link>https://pattysung1.github.io/works/leetcode-997/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-997/</guid>
+      <description>In a town, there are n people labeled from 1 to n.</description>
+    </item>
+    
+  </channel>
+</rss>
