@@ -6,7 +6,35 @@
     <description>Recent content in tree on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-701. Insert into a Binary Search Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-701/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-701/</guid>
+      <description>Example 1:
+Input: root = [4,2,7,1,3], val = 5 Output: [4,2,7,1,3,5] Explanation: Another accepted tree is: Example 2:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-590. N-ary Tree Postorder Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-590/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-590/</guid>
+      <description>&amp;lt;解題&amp;gt; Time: O(n) Space: O(h)</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-700. Search in a Binary Search Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-700/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-700/</guid>
+      <description>You are given the root of a binary search tree (BST) and an integer val.</description>
+    </item>
+    
     <item>
       <title>Leetcode-117. Populating Next Right Pointers in Each Node II</title>
       <link>https://pattysung1.github.io/works/leetcode-117/</link>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>binary search on PattySung</title>
+    <link>https://pattysung1.github.io/tags/binary-search/</link>
+    <description>Recent content in binary search on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/binary-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-153. Find Minimum in Rotated Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-153/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-153/</guid>
+      <description>Suppose an array of length n sorted in ascending order is rotated between 1 and n times.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-74. Search a 2D Matrix</title>
+      <link>https://pattysung1.github.io/works/leetcode-74/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-74/</guid>
+      <description>You are given an m x n integer matrix matrix with the following two properties:</description>
+    </item>
+    
+  </channel>
+</rss>

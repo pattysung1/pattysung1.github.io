@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>array on PattySung</title>
+    <link>https://pattysung1.github.io/tags/array/</link>
+    <description>Recent content in array on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-153. Find Minimum in Rotated Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-153/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-153/</guid>
+      <description>Suppose an array of length n sorted in ascending order is rotated between 1 and n times.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
+      <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-108. Convert Sorted Array to Binary Search Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-108/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-108/</guid>
+      <description>Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-162. Find Peak Element</title>
+      <link>https://pattysung1.github.io/works/leetcode-162/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-162/</guid>
+      <description>A peak element is an element that is strictly greater than its neighbors.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-222. Count Complete Tree Nodes</title>
+      <link>https://pattysung1.github.io/works/leetcode-222/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-222/</guid>
+      <description>Given the root of a complete binary tree, return the number of the nodes in the tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-34. Find First and Last Position of Element in Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-34/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-34/</guid>
+      <description>Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-35. Search Insert Position</title>
+      <link>https://pattysung1.github.io/works/leetcode-35/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-35/</guid>
+      <description>Given a sorted array of distinct integers and a target value, return the index if the target is found.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-74. Search a 2D Matrix</title>
+      <link>https://pattysung1.github.io/works/leetcode-74/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-74/</guid>
+      <description>You are given an m x n integer matrix matrix with the following two properties:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-238. Product of Array Except Self</title>
+      <link>https://pattysung1.github.io/works/leetcode-238/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-238/</guid>
+      <description>Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-821. Shortest Distance to a Character</title>
+      <link>https://pattysung1.github.io/works/leetcode-821/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-821/</guid>
+      <description>Given a string s and a character c that occurs in s, return an array of integers answer where answer.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-916. Word Subsets</title>
+      <link>https://pattysung1.github.io/works/leetcode-916/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-916/</guid>
+      <description>You are given two string arrays words1 and words2.
+A string b is a subset of string a if every letter in b occurs in a including multiplicity.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-48. Rotate Image</title>
+      <link>https://pattysung1.github.io/works/leetcode-48/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-48/</guid>
+      <description>You are given an n x n 2D matrix representing an image, rotate the image by 90 degrees (clockwise).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-136. Single Number</title>
+      <link>https://pattysung1.github.io/works/leetcode-136/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-136/</guid>
+      <description>Given a non-empty array of integers nums, every element appears twice except for one.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-268. Missing Number</title>
+      <link>https://pattysung1.github.io/works/leetcode-268/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-268/</guid>
+      <description>Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-66. Plus One</title>
+      <link>https://pattysung1.github.io/works/leetcode-66/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-66/</guid>
+      <description>You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer.</description>
+    </item>
+    
+  </channel>
+</rss>
