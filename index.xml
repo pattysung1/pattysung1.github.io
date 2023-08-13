@@ -6,7 +6,62 @@
     <description>Recent content on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
+      <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-347. Top K Frequent Elements</title>
+      <link>https://pattysung1.github.io/works/leetcode-347/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-347/</guid>
+      <description>Given an integer array nums and an integer k, return the k most frequent elements.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-394. Decode String</title>
+      <link>https://pattysung1.github.io/works/leetcode-394/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-394/</guid>
+      <description>Given an encoded string, return its decoded string.
+The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-567. Permutation in String</title>
+      <link>https://pattysung1.github.io/works/leetcode-567/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-567/</guid>
+      <description>Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-70. Climbing Stairs</title>
+      <link>https://pattysung1.github.io/works/leetcode-70/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-70/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public int climbStairs(int n) { if(n==1) return 1; if(n==2) return 2; //表示有兩個台階，有兩種爬法：一次爬一個台階，或者一次爬兩個台階，直接返回 2 int[] a = new int[n]; a[0]=1; //代表爬 1 階樓梯的方法數為 1 a[1]=2; //代表爬 2 階樓梯的方法數為 2 for(int i=2;i&amp;lt;n;i++){ a[i]=a[i-1]+a[i-2]; } return a[n-1]; // 由於陣列索引是從 0 開始的，所以第 n 階樓梯的方法數對應到 a[n-1] 這個位置 } } Time: O(n) Space: O(n)</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-746. Min Cost Climbing Stairs</title>
+      <link>https://pattysung1.github.io/works/leetcode-746/</link>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-746/</guid>
+      <description>&amp;lt;解題&amp;gt; 遞迴版本 計算爬到第 n 階的最小花費，即 cost[n] 加上爬到前一階和前兩階中花費較小的那個的最小花費。這是因為我們可以選擇爬到前一階或前兩階，然後再加上爬到當前階所需的花費： 遞迴關係：cost[i] += Math.min(cost[i-1], cost[i-2]); 最後return Math.</description>
+    </item>
+    
     <item>
       <title>Leetcode-153. Find Minimum in Rotated Sorted Array</title>
       <link>https://pattysung1.github.io/works/leetcode-153/</link>
@@ -17,12 +72,21 @@
     </item>
     
     <item>
-      <title>Leetcode-</title>
-      <link>https://pattysung1.github.io/works/leetcode-/</link>
-      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      <title>Leetcode-3. Longest Substring Without Repeating Characters</title>
+      <link>https://pattysung1.github.io/works/leetcode-3/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
-      <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+      <guid>https://pattysung1.github.io/works/leetcode-3/</guid>
+      <description>Given a string s, find the length of the longest substring without repeating characters.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-33. Search in Rotated Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-33/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-33/</guid>
+      <description>There is an integer array nums sorted in ascending order (with distinct values).</description>
     </item>
     
     <item>
@@ -241,7 +305,7 @@ A string b is a subset of string a if every letter in b occurs in a including mu
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-590/</guid>
-      <description>&amp;lt;解題&amp;gt; Time: O(n) Space: O(h)</description>
+      <description>Given the root of an n-ary tree, return the postorder traversal of its nodes&amp;rsquo; values.</description>
     </item>
     
     <item>

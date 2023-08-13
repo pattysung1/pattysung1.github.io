@@ -6,7 +6,53 @@
     <description>Recent content in string on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-</title>
+      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
+      <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-347. Top K Frequent Elements</title>
+      <link>https://pattysung1.github.io/works/leetcode-347/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-347/</guid>
+      <description>Given an integer array nums and an integer k, return the k most frequent elements.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-394. Decode String</title>
+      <link>https://pattysung1.github.io/works/leetcode-394/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-394/</guid>
+      <description>Given an encoded string, return its decoded string.
+The encoding rule is: k[encoded_string], where the encoded_string inside the square brackets is being repeated exactly k times.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-567. Permutation in String</title>
+      <link>https://pattysung1.github.io/works/leetcode-567/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-567/</guid>
+      <description>Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-3. Longest Substring Without Repeating Characters</title>
+      <link>https://pattysung1.github.io/works/leetcode-3/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-3/</guid>
+      <description>Given a string s, find the length of the longest substring without repeating characters.</description>
+    </item>
+    
     <item>
       <title>Leetcode-222. Count Complete Tree Nodes</title>
       <link>https://pattysung1.github.io/works/leetcode-222/</link>
