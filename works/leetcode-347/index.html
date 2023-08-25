@@ -190,7 +190,23 @@ Output: [1]
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
 </span></span></code></pre></div><p>Time: O(n)
 Space: O(n)</p>
-
+<h4 id="merge用法">merge用法</h4>
+<p>前面merge的寫法，可改寫成如下：</p>
+<ol>
+<li>
+<p>count.getOrDefault(num, 0) + 1: 使用 getOrDefault 方法來取得 num 鍵對應的值，如果鍵不存在，則使用預設值 0。然後將這個值加 1，以計算元素的出現次數</p>
+</li>
+<li>
+<p>count.put(num, &hellip; ): 使用 put 方法將新的計數值放入 count Map 中，這樣就更新了元素的出現次數。</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#babbf1">Map</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">count</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">num</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#babbf1">count</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#babbf1">num</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">count</span><span style="color:#99d1db">.</span><span style="color:#e5c890">getOrDefault</span><span style="color:#99d1db">(</span><span style="color:#babbf1">num</span><span style="color:#99d1db">,</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">+</span> 1<span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div>
         </div>
 
         

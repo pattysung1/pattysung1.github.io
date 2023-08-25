@@ -6,14 +6,104 @@
     <description>Recent content in Programming on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leetcode-</title>
       <link>https://pattysung1.github.io/works/leetcode-/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-/</guid>
       <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-611. Valid Triangle Number</title>
+      <link>https://pattysung1.github.io/works/leetcode-611/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-611/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public int triangleNumber(int[] nums) { if (nums.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-647. Palindromic Substrings</title>
+      <link>https://pattysung1.github.io/works/leetcode-647/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-647/</guid>
+      <description>Given a string s, return the number of palindromic substrings in it.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-56. Merge Intervals</title>
+      <link>https://pattysung1.github.io/works/leetcode-56/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-56/</guid>
+      <description>Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-57. Insert Interval</title>
+      <link>https://pattysung1.github.io/works/leetcode-57/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-57/</guid>
+      <description>You are given an array of non-overlapping intervals intervals where intervals[i] = [starti, endi] represent the start and the end of the ith interval and intervals is sorted in ascending order by starti.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-15. 3Sum</title>
+      <link>https://pattysung1.github.io/works/leetcode-15/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-15/</guid>
+      <description>Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i !</description>
+    </item>
+    
+    <item>
+      <title>字母替換成下一個字母</title>
+      <link>https://pattysung1.github.io/works/nextchar/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/nextchar/</guid>
+      <description>&amp;lt;解題&amp;gt; public class Main { public static void main(String[] args) { Solution solution = new Solution(); String string = &amp;#34;pineappleTREE&amp;#34;; //預期輸出pineaqpleUREE System.</description>
+    </item>
+    
+    <item>
+      <title>HashMap用法筆記</title>
+      <link>https://pattysung1.github.io/works/hashmap/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/hashmap/</guid>
+      <description>資料來源：https://blog.csdn.net/q5706503/article/details/85122343</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-169. Majority Element</title>
+      <link>https://pattysung1.github.io/works/leetcode-169/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-169/</guid>
+      <description>Given an array nums of size n, return the majority element.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-53. Maximum Subarray</title>
+      <link>https://pattysung1.github.io/works/leetcode-53/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-53/</guid>
+      <description>Given an integer array nums, find the subarray with the largest sum, and return its sum.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-349. Intersection of Two Arrays</title>
+      <link>https://pattysung1.github.io/works/leetcode-349/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-349/</guid>
+      <description>Given two integer arrays nums1 and nums2, return an array of their intersection.</description>
     </item>
     
     <item>
