@@ -6,14 +6,151 @@
     <description>Recent content in leetcode on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Leetcode-</title>
-      <link>https://pattysung1.github.io/works/leetcode-/</link>
+      <title>Leetcode-257. Binary Tree Paths</title>
+      <link>https://pattysung1.github.io/works/leetcode-257/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-257/</guid>
+      <description>&amp;lt;解題&amp;gt; Time: O(n) Space: O(n)</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-865. Smallest Subtree with all the Deepest Nodes</title>
+      <link>https://pattysung1.github.io/works/leetcode-865/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-865/</guid>
+      <description>&amp;lt;解題&amp;gt; 使用後序遍歷方式來遍歷二叉樹，從樹的底部開始考慮深度。 首先處理葉子節點，然後逐漸向上計算深度，直到找到具有最深葉子節點的子樹的根節點。
+class Solution { int maxDepth=-1; TreeNode result=null; public TreeNode subtreeWithAllDeepest(TreeNode root) { postOrder(root,0); return result; } int postOrder(TreeNode node, int depth){ if(node==null) return depth; int left = postOrder(node.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-167. Two Sum II - Input Array Is Sorted</title>
+      <link>https://pattysung1.github.io/works/leetcode-167/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-167/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public int[] twoSum(int[] numbers, int target) { int a_pointer = 0; int b_pointer = numbers.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-438. Find All Anagrams in a String</title>
+      <link>https://pattysung1.github.io/works/leetcode-438/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-438/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public List&amp;lt;Integer&amp;gt; findAnagrams(String s, String p) { List&amp;lt;Integer&amp;gt; res = new ArrayList(); if(s.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-442. Find All Duplicates in an Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-442/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-442/</guid>
+      <description>&amp;lt;解題&amp;gt; public List&amp;lt;Integer&amp;gt; findDuplicates(int[] nums) { List&amp;lt;Integer&amp;gt; res = new ArrayList(); // 用于存储重复元素的结果列表 for (int i = 0; i &amp;lt; nums.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-54. Spiral Matrix</title>
+      <link>https://pattysung1.github.io/works/leetcode-54/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-54/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public List&amp;lt;Integer&amp;gt; spiralOrder(int[][] matrix) { List&amp;lt;Integer&amp;gt; res = new ArrayList(); if(matrix.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-621. Task Scheduler</title>
+      <link>https://pattysung1.github.io/works/leetcode-621/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-621/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public int leastInterval(char[] tasks, int n) { int[] char_map = new int[26]; for(char c: tasks){ char_map[c-&amp;#39;A&amp;#39;]++; } Arrays.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-11. Container With Most Water</title>
+      <link>https://pattysung1.github.io/works/leetcode-11/</link>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-11/</guid>
+      <description>You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-278. First Bad Version</title>
+      <link>https://pattysung1.github.io/works/leetcode-278/</link>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-278/</guid>
+      <description>You are a product manager and currently leading a team to develop a new product.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-409. Longest Palindrome</title>
+      <link>https://pattysung1.github.io/works/leetcode-409/</link>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-409/</guid>
+      <description>Given a string s which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-733. Flood Fill</title>
+      <link>https://pattysung1.github.io/works/leetcode-733/</link>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-733/</guid>
+      <description>An image is represented by an m x n integer grid image where image[i][j] represents the pixel value of the image.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-125. Valid Palindrome</title>
+      <link>https://pattysung1.github.io/works/leetcode-125/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-125/</guid>
+      <description>A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-128. Longest Consecutive Sequence</title>
+      <link>https://pattysung1.github.io/works/leetcode-128/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-128/</guid>
+      <description>Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-75. Sort Colors</title>
+      <link>https://pattysung1.github.io/works/leetcode-75/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-75/</guid>
+      <description>Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-1380. Lucky Numbers in a Matrix</title>
+      <link>https://pattysung1.github.io/works/leetcode-1380/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://pattysung1.github.io/works/leetcode-/</guid>
-      <description>&amp;lt;解題&amp;gt; Time: O() Space: O()</description>
+      <guid>https://pattysung1.github.io/works/leetcode-1380/</guid>
+      <description>Given an m x n matrix of distinct numbers, return all lucky numbers in the matrix in any order.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-5. Longest Palindromic Substring</title>
+      <link>https://pattysung1.github.io/works/leetcode-5/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-5/</guid>
+      <description>Given a string s, return the longest palindromic
+substring in s.</description>
     </item>
     
     <item>
@@ -32,6 +169,24 @@
       
       <guid>https://pattysung1.github.io/works/leetcode-647/</guid>
       <description>Given a string s, return the number of palindromic substrings in it.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-91. Decode Ways</title>
+      <link>https://pattysung1.github.io/works/leetcode-91/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-91/</guid>
+      <description>A message containing letters from A-Z can be encoded into numbers using the following mapping:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-最大回文字串</title>
+      <link>https://pattysung1.github.io/works/%E6%9C%80%E5%A4%A7%E5%9B%9E%E6%96%87%E5%AD%97%E4%B8%B2/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/%E6%9C%80%E5%A4%A7%E5%9B%9E%E6%96%87%E5%AD%97%E4%B8%B2/</guid>
+      <description>&amp;lt;解題&amp;gt; public class Main { public static void main(String[] args) { Scanner scanner = new Scanner(System.</description>
     </item>
     
     <item>
