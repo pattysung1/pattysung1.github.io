@@ -165,7 +165,8 @@ Output: 2</p>
 </span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">[</span><span style="color:#babbf1">n</span><span style="color:#99d1db">/</span>2<span style="color:#99d1db">];</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
-</span></span></code></pre></div><h4 id="解題2-hashmap">&lt;解題&gt;2. HashMap</h4>
+</span></span></code></pre></div><p>T: O(n log n)</p>
+<h4 id="解題2-hashmap">&lt;解題&gt;2. HashMap</h4>
 <div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">majorityElement</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
@@ -198,7 +199,25 @@ Space: O(n)</p>
 <li>反覆進行步驟2直到陣列結尾，剩下的res即為答案。
 (因為兩兩移除到最後一定是非majority element的先被移光)</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">majorityElement</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">ele</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">,</span> <span style="color:#babbf1">vote</span> <span style="color:#99d1db">=</span>0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">num</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">num</span> <span style="color:#99d1db">==</span> <span style="color:#babbf1">ele</span> <span style="color:#99d1db">&amp;&amp;</span> <span style="color:#babbf1">vote</span> <span style="color:#99d1db">&gt;</span> 0<span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">vote</span> <span style="color:#99d1db">+=</span>1<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">vote</span> <span style="color:#99d1db">==</span>0<span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">ele</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">num</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">vote</span> <span style="color:#99d1db">=</span> 1<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">vote</span> <span style="color:#99d1db">-=</span>1<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">ele</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">majorityElement</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">count</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">res</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>

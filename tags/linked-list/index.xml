@@ -6,7 +6,52 @@
     <description>Recent content in linked List on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-143. Reorder List</title>
+      <link>https://pattysung1.github.io/works/leetcode-143/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-143/</guid>
+      <description>You are given the head of a singly linked-list. The list can be represented as:</description>
+    </item>
+    
+    <item>
+      <title>328. Odd Even Linked List</title>
+      <link>https://pattysung1.github.io/works/leetcode-328/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-328/</guid>
+      <description>Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-146. LRU Cache</title>
+      <link>https://pattysung1.github.io/works/leetcode-146/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-146/</guid>
+      <description>Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-24. Swap Nodes in Pairs</title>
+      <link>https://pattysung1.github.io/works/leetcode-24/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-24/</guid>
+      <description>Given a linked list, swap every two adjacent nodes and return its head.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-876. Middle of the Linked List</title>
+      <link>https://pattysung1.github.io/works/leetcode-876/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-876/</guid>
+      <description>Given the head of a singly linked list, return the middle node of the linked list.</description>
+    </item>
+    
     <item>
       <title>Leetcode-148. Sort List</title>
       <link>https://pattysung1.github.io/works/leetcode-148/</link>
@@ -14,6 +59,42 @@
       
       <guid>https://pattysung1.github.io/works/leetcode-148/</guid>
       <description>Given the head of a linked list, return the list after sorting it in ascending order.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-19. Remove Nth Node From End of List</title>
+      <link>https://pattysung1.github.io/works/leetcode-19/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-19/</guid>
+      <description>Given the head of a linked list, remove the nth node from the end of the list and return its head.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-206. Reverse Linked List</title>
+      <link>https://pattysung1.github.io/works/leetcode-206/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-206/</guid>
+      <description>Given the head of a singly linked list, reverse the list, and return the reversed list.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-21. Merge Two Sorted Lists</title>
+      <link>https://pattysung1.github.io/works/leetcode-21/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-21/</guid>
+      <description>You are given the heads of two sorted linked lists list1 and list2.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-141. Linked List Cycle</title>
+      <link>https://pattysung1.github.io/works/leetcode-141/</link>
+      <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-141/</guid>
+      <description>Given head, the head of a linked list, determine if the linked list has a cycle in it.</description>
     </item>
     
   </channel>

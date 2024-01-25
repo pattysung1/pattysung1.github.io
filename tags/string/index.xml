@@ -6,7 +6,52 @@
     <description>Recent content in string on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-716. Max Stack</title>
+      <link>https://pattysung1.github.io/works/leetcode-716/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-716/</guid>
+      <description>Design a max stack data structure that supports the stack operations and supports finding the stack&amp;rsquo;s maximum element.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-98. Validate Binary Search Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-98/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-98/</guid>
+      <description>Given the root of a binary tree, determine if it is a valid binary search tree (BST).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-14. Longest Common Prefix</title>
+      <link>https://pattysung1.github.io/works/leetcode-14/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-14/</guid>
+      <description>Write a function to find the longest common prefix string amongst an array of strings.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-424. Longest Repeating Character Replacement</title>
+      <link>https://pattysung1.github.io/works/leetcode-424/</link>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-424/</guid>
+      <description>You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character.</description>
+    </item>
+    
+    <item>
+      <title>String</title>
+      <link>https://pattysung1.github.io/works/string/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/string/</guid>
+      <description>1. 字符數組轉換為字符串 char[] charArray = {&amp;#39;H&amp;#39;, &amp;#39;e&amp;#39;, &amp;#39;l&amp;#39;, &amp;#39;l&amp;#39;, &amp;#39;o&amp;#39;}; String str = new String(charArray); // 将字符数组转换为字符串 System.</description>
+    </item>
+    
     <item>
       <title>Leetcode-257. Binary Tree Paths</title>
       <link>https://pattysung1.github.io/works/leetcode-257/</link>
@@ -123,15 +168,6 @@ class Solution { int maxDepth=-1; TreeNode result=null; public TreeNode subtreeW
       
       <guid>https://pattysung1.github.io/works/leetcode-128/</guid>
       <description>Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-75. Sort Colors</title>
-      <link>https://pattysung1.github.io/works/leetcode-75/</link>
-      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-75/</guid>
-      <description>Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.</description>
     </item>
     
     <item>
@@ -324,6 +360,15 @@ The encoding rule is: k[encoded_string], where the encoded_string inside the squ
       <guid>https://pattysung1.github.io/works/leetcode-916/</guid>
       <description>You are given two string arrays words1 and words2.
 A string b is a subset of string a if every letter in b occurs in a including multiplicity.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-977. Squares of a Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-977/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-977/</guid>
+      <description>Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.</description>
     </item>
     
     <item>

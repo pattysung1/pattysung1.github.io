@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>PattySung</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is Patty Sung&#39;s website.">
+  <meta name="author" content="PattySung">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.113.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VP4BXRRG1X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VP4BXRRG1X');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://pattysung1.github.io"><img class="img-fluid"
+          src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw=="><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/pattysung1"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://pattysung1.github.io"><img class="img-fluid"
+            src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/works/">Works</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/travel/">Travel</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/contact/">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/programming"
+          class="text-primary">Programming</a>
+        
+        <h2>Leetcode-146. LRU Cache</h2>
+        <div class="mb-3 post-meta">
+          <span>By PattySung</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>14 January 2024</span>
+          
+        </div>
+        
+        <img src="https://pattysung1.github.io/images/leetcode.jpg" class="img-fluid w-80 mb-4" alt="Leetcode-146. LRU Cache">
+        
+        <div class="content mb-5">
+          <p>Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.</p>
+<p>Implement the LRUCache class:</p>
+<p>LRUCache(int capacity) Initialize the LRU cache with positive size capacity.
+int get(int key) Return the value of the key if the key exists, otherwise return -1.
+void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache. If the number of keys exceeds the capacity from this operation, evict the least recently used key.
+The functions get and put must each run in O(1) average time complexity.</p>
+<p>Example 1:</p>
+<p>Input
+[&ldquo;LRUCache&rdquo;, &ldquo;put&rdquo;, &ldquo;put&rdquo;, &ldquo;get&rdquo;, &ldquo;put&rdquo;, &ldquo;get&rdquo;, &ldquo;put&rdquo;, &ldquo;get&rdquo;, &ldquo;get&rdquo;, &ldquo;get&rdquo;]
+[[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]
+Output
+[null, null, null, 1, null, -1, null, -1, 3, 4]</p>
+<p>Explanation
+LRUCache lRUCache = new LRUCache(2);
+lRUCache.put(1, 1); // cache is {1=1}
+lRUCache.put(2, 2); // cache is {1=1, 2=2}
+lRUCache.get(1);    // return 1
+lRUCache.put(3, 3); // LRU key was 2, evicts key 2, cache is {1=1, 3=3}
+lRUCache.get(2);    // returns -1 (not found)
+lRUCache.put(4, 4); // LRU key was 1, evicts key 1, cache is {4=4, 3=3}
+lRUCache.get(1);    // return -1 (not found)
+lRUCache.get(3);    // return 3
+lRUCache.get(4);    // return 4</p>
+<h4 id="解題">&lt;解題&gt;</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">LRUCache</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Node</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">key</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Node</span> <span style="color:#babbf1">pre</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Node</span> <span style="color:#babbf1">next</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">public</span> <span style="color:#99d1db">Node</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">key</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">int</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">this</span><span style="color:#99d1db">.</span><span style="color:#e5c890">key</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">key</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">this</span><span style="color:#99d1db">.</span><span style="color:#e5c890">value</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">private</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">Node</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">map</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">private</span> <span style="color:#e5c890">int</span> <span style="color:#babbf1">capacity</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#626880;font-style:italic">//頭部-&gt;最老的元素
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>    <span style="color:#ca9ee6">private</span> <span style="color:#babbf1">Node</span> <span style="color:#babbf1">head</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#626880;font-style:italic">//尾部-&gt;最新的元素
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>    <span style="color:#ca9ee6">private</span> <span style="color:#babbf1">Node</span> <span style="color:#babbf1">tail</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#99d1db">LRUCache</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">capacity</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">this</span><span style="color:#99d1db">.</span><span style="color:#e5c890">capacity</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">capacity</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">head</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">tail</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">get</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">key</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Node</span> <span style="color:#babbf1">node</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">key</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">node</span> <span style="color:#99d1db">==</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">return</span> <span style="color:#99d1db">-</span>1<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">//如果node是最新元素，直接返回
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">node</span> <span style="color:#99d1db">!=</span> <span style="color:#babbf1">tail</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">//如果node是head，需要把它移到末尾
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">node</span> <span style="color:#99d1db">==</span> <span style="color:#babbf1">head</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">head</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">head</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">//把取出的node放到最後
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#babbf1">tail</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">tail</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">tail</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">value</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">void</span> <span style="color:#99d1db">put</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">key</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">int</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Node</span> <span style="color:#babbf1">node</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">key</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">//已經存在這個node，只需要更新node的值
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">node</span> <span style="color:#99d1db">!=</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">value</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">node</span> <span style="color:#99d1db">!=</span> <span style="color:#babbf1">tail</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">node</span> <span style="color:#99d1db">==</span> <span style="color:#babbf1">head</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">head</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">head</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">tail</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">tail</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">node</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">tail</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">node</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">//需要插入新的節點
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#babbf1">Node</span> <span style="color:#babbf1">newNode</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">Node</span><span style="color:#99d1db">(</span><span style="color:#babbf1">key</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">value</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">capacity</span> <span style="color:#99d1db">==</span> 0<span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">Node</span> <span style="color:#babbf1">temp</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">head</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#626880;font-style:italic">//把舊的head刪掉
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                <span style="color:#babbf1">head</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">head</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#626880;font-style:italic">//如果刪除後鏈表為空，也要更新tail
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">head</span> <span style="color:#99d1db">==</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">tail</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#626880;font-style:italic">//map中也要刪除
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">remove</span><span style="color:#99d1db">(</span><span style="color:#babbf1">temp</span><span style="color:#99d1db">.</span><span style="color:#e5c890">key</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">capacity</span><span style="color:#99d1db">++;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span> 
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">//如果是鏈表中的第一個點
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">head</span> <span style="color:#99d1db">==</span> <span style="color:#ca9ee6;font-style:italic">null</span> <span style="color:#99d1db">&amp;&amp;</span> <span style="color:#babbf1">tail</span> <span style="color:#99d1db">==</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">head</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">newNode</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">tail</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">newNode</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">newNode</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pre</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">tail</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">newNode</span><span style="color:#99d1db">.</span><span style="color:#e5c890">next</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">null</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">tail</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">newNode</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#babbf1">key</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">newNode</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">//減少一個容量
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#babbf1">capacity</span><span style="color:#99d1db">--;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"> * Your LRUCache object will be instantiated and called as such:
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"> * LRUCache obj = new LRUCache(capacity);
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"> * int param_1 = obj.get(key);
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"> * obj.put(key,value);
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"> */</span>
+</span></span></code></pre></div><p>Time: O(1)
+Space: O(n)</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <br>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:a9870456321"><i
+                class="ti-mobile mr-3 text-primary"></i>a9870456321</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:sungpeihsuannccu@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>sungpeihsuannccu@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw==">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/pattysung1">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/japan%e6%97%a5%e6%9c%ac/">Japan日本</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/programming/">Programming</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/about/">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/works/">Works</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/travel/">Travel</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/contact/">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2023 <a href="https://pattysung1.github.io/">PattySung</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://pattysung1.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://pattysung1.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/mark.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://pattysung1.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

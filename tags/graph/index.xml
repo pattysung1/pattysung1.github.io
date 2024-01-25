@@ -6,7 +6,34 @@
     <description>Recent content in graph on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-210. Course Schedule II</title>
+      <link>https://pattysung1.github.io/works/leetcode-210/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-210/</guid>
+      <description>There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-787. Cheapest Flights Within K Stops</title>
+      <link>https://pattysung1.github.io/works/leetcode-787/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-787/</guid>
+      <description>&amp;lt;解題&amp;gt; Dijkstra&amp;rsquo;s algorithm: Dijkstra&amp;rsquo;s algorithm finds the shortest path between a given node (which is called the &amp;ldquo;source node&amp;rdquo;) and all other nodes in a graph.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-207. Course Schedule</title>
+      <link>https://pattysung1.github.io/works/leetcode-207/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-207/</guid>
+      <description>There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1.</description>
+    </item>
+    
     <item>
       <title>Leetcode-133. Clone Graph</title>
       <link>https://pattysung1.github.io/works/leetcode-133/</link>

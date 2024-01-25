@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>PattySung</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is Patty Sung&#39;s website.">
+  <meta name="author" content="PattySung">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.113.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VP4BXRRG1X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VP4BXRRG1X');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://pattysung1.github.io"><img class="img-fluid"
+          src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw=="><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/pattysung1"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://pattysung1.github.io"><img class="img-fluid"
+            src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/works/">Works</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/travel/">Travel</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/contact/">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/programming"
+          class="text-primary">Programming</a>
+        
+        <h2>Leetcode-207. Course Schedule</h2>
+        <div class="mb-3 post-meta">
+          <span>By PattySung</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>04 January 2024</span>
+          
+        </div>
+        
+        <img src="https://pattysung1.github.io/images/leetcode.jpg" class="img-fluid w-80 mb-4" alt="Leetcode-207. Course Schedule">
+        
+        <div class="content mb-5">
+          <p>There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.</p>
+<p>For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
+Return true if you can finish all courses. Otherwise, return false.</p>
+<p>Example 1:</p>
+<p>Input: numCourses = 2, prerequisites = [[1,0]]
+Output: true
+Explanation: There are a total of 2 courses to take.
+To take course 1 you should have finished course 0. So it is possible.
+Example 2:</p>
+<p>Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+Output: false
+Explanation: There are a total of 2 courses to take.
+To take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.</p>
+<h4 id="解題">&lt;解題&gt;</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">boolean</span> <span style="color:#99d1db">canFinish</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[][]</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">indegree</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">pair</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">// pair[1]是先修課程，pair[0]是後修課程
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">pair</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]]++;</span> <span style="color:#626880;font-style:italic">// 後修課程的入度加1
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Queue</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">queue</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">LinkedList</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">==</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span> <span style="color:#626880;font-style:italic">// 入度為0的課程，可以直接修
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">offer</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">while</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">isEmpty</span><span style="color:#99d1db">())</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e5c890">int</span> <span style="color:#babbf1">curr</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">poll</span><span style="color:#99d1db">();</span> <span style="color:#626880;font-style:italic">// 從隊列中取出當前可以修的課程
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">pair</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">pair</span><span style="color:#99d1db">[</span>1<span style="color:#99d1db">]</span> <span style="color:#99d1db">==</span> <span style="color:#babbf1">curr</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span> <span style="color:#626880;font-style:italic">// 找到有curr作為先修的課程
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                    <span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">pair</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]]--;</span> <span style="color:#626880;font-style:italic">// 後修課程的入度減1
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                    <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">pair</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]]</span> <span style="color:#99d1db">==</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">offer</span><span style="color:#99d1db">(</span><span style="color:#babbf1">pair</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]);</span> <span style="color:#626880;font-style:italic">// 如果後修課程的入度變為0，則可以修
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">!=</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span> <span style="color:#626880;font-style:italic">// 如果還有入度不為0的課程，表示無法完成所有課程
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6;font-style:italic">false</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><p>T: O(numCourses + prerequisites.length)
+S: O(numCourses)</p>
+<h4 id="拓撲排序">拓撲排序</h4>
+<p>拓撲排序（Topological Sorting）是一種用於有向無環圖（DAG）的節點排序算法，其中節點代表一些對象，有向邊代表對象之間的依賴關係。拓撲排序的目標是找到一個節點的線性排序，使得對於每一條有向邊 (u, v)，節點 u 在排序中出現在節點 v 之前。換句話說，它能夠找到一種順序，使得所有的依賴關係都被滿足。</p>
+<p>拓撲排序常用於解決以下問題：</p>
+<p>1.任務調度：例如，課程安排、作業調度等。
+2.編譯順序：編譯器需要確保所有的依賴項被按正確的順序編譯。
+3.資源分配：在分配資源時需要確保資源之間的依賴性。
+4.地圖繪製：在地圖繪製中，城市之間的道路或飛行路線可以表示為有向無環圖，拓撲排序可用於找到最佳路線。</p>
+<p>拓撲排序可以通過不同的演算法來實現，其中最常見的演算法包括：</p>
+<p>1.Kahn&rsquo;s Algorithm：這是一種基於入度的方法，通過選擇入度為0的節點，然後移除相關邊來構建排序序列。
+2.Depth-First Search (DFS)：使用深度優先搜索遍歷有向圖，並在遍歷過程中按照反向順序將節點添加到排序序列中。
+3.Breadth-First Search (BFS)：使用廣度優先搜索來構建排序序列，類似於Kahn&rsquo;s Algorithm，但是使用隊列而不是堆棧。</p>
+<h4 id="1-kahns-algorithm-基於入度的方法">1. Kahn&rsquo;s Algorithm (基於入度的方法)</h4>
+<p>假設我們有一個有向圖的邊列表 edges，以及節點數量 numCourses，我們可以使用Kahn&rsquo;s Algorithm 來進行拓撲排序。這是一個基於入度的方法。</p>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#babbf1">Copy</span> <span style="color:#babbf1">code</span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">import</span> <span style="color:#e5c890">java.util.*</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">public</span> <span style="color:#ca9ee6">class</span> <span style="color:#e5c890">TopologicalSortKahn</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#99d1db">findOrder</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[][]</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">indegree</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">result</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">ArrayList</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Queue</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">queue</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">LinkedList</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">// Calculate indegree for each course
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">edge</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]]++;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">// Add courses with indegree 0 to the queue
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">==</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">offer</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">while</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">isEmpty</span><span style="color:#99d1db">())</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e5c890">int</span> <span style="color:#babbf1">course</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">poll</span><span style="color:#99d1db">();</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">result</span><span style="color:#99d1db">.</span><span style="color:#e5c890">add</span><span style="color:#99d1db">(</span><span style="color:#babbf1">course</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">edge</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>1<span style="color:#99d1db">]</span> <span style="color:#99d1db">==</span> <span style="color:#babbf1">course</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]]--;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]]</span> <span style="color:#99d1db">==</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">offer</span><span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]);</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">result</span><span style="color:#99d1db">.</span><span style="color:#e5c890">size</span><span style="color:#99d1db">()</span> <span style="color:#99d1db">!=</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">];</span> <span style="color:#626880;font-style:italic">// No valid ordering
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">order</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">order</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">result</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">order</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><h4 id="2-depth-first-search-dfs-方法">2. Depth-First Search (DFS) 方法</h4>
+<p>使用深度優先搜索 (DFS) 來進行拓撲排序。這個示例假設我們有一個有向圖的鄰接表 adjList 和節點數量 numCourses。</p>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#babbf1">Copy</span> <span style="color:#babbf1">code</span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">import</span> <span style="color:#e5c890">java.util.*</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">public</span> <span style="color:#ca9ee6">class</span> <span style="color:#e5c890">TopologicalSortDFS</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#99d1db">findOrder</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[][]</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Map</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;&gt;</span> <span style="color:#babbf1">adjList</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">edge</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">putIfAbsent</span><span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>1<span style="color:#99d1db">],</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">ArrayList</span><span style="color:#99d1db">&lt;&gt;());</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>1<span style="color:#99d1db">]).</span><span style="color:#e5c890">add</span><span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">visited</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">onStack</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Stack</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">stack</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">Stack</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">visited</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">&amp;&amp;</span> <span style="color:#babbf1">hasCycle</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">adjList</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">visited</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">onStack</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">stack</span><span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">];</span> <span style="color:#626880;font-style:italic">// Cycle detected, no valid ordering
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">order</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#99d1db">!</span><span style="color:#babbf1">stack</span><span style="color:#99d1db">.</span><span style="color:#e5c890">isEmpty</span><span style="color:#99d1db">();</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">order</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">stack</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pop</span><span style="color:#99d1db">();</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">order</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">private</span> <span style="color:#e5c890">boolean</span> <span style="color:#99d1db">hasCycle</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">course</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">Map</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;&gt;</span> <span style="color:#babbf1">adjList</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">visited</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">onStack</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">Stack</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">stack</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">visited</span><span style="color:#99d1db">[</span><span style="color:#babbf1">course</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">onStack</span><span style="color:#99d1db">[</span><span style="color:#babbf1">course</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">containsKey</span><span style="color:#99d1db">(</span><span style="color:#babbf1">course</span><span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">neighbor</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">course</span><span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">visited</span><span style="color:#99d1db">[</span><span style="color:#babbf1">neighbor</span><span style="color:#99d1db">])</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">hasCycle</span><span style="color:#99d1db">(</span><span style="color:#babbf1">neighbor</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">adjList</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">visited</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">onStack</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">stack</span><span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">onStack</span><span style="color:#99d1db">[</span><span style="color:#babbf1">neighbor</span><span style="color:#99d1db">])</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">onStack</span><span style="color:#99d1db">[</span><span style="color:#babbf1">course</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">false</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">stack</span><span style="color:#99d1db">.</span><span style="color:#e5c890">push</span><span style="color:#99d1db">(</span><span style="color:#babbf1">course</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6;font-style:italic">false</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><h4 id="3-breadth-first-search-bfs-方法">3. Breadth-First Search (BFS) 方法</h4>
+<p>使用廣度優先搜索 (BFS) 來進行拓撲排序。這個示例也假設我們有一個有向圖的鄰接表 adjList 和節點數量 numCourses。</p>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#babbf1">Copy</span> <span style="color:#babbf1">code</span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">import</span> <span style="color:#e5c890">java.util.*</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">public</span> <span style="color:#ca9ee6">class</span> <span style="color:#e5c890">TopologicalSortBFS</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#99d1db">findOrder</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[][]</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Map</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;&gt;</span> <span style="color:#babbf1">adjList</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">indegree</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">edge</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">prerequisites</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">putIfAbsent</span><span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>1<span style="color:#99d1db">],</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">ArrayList</span><span style="color:#99d1db">&lt;&gt;());</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>1<span style="color:#99d1db">]).</span><span style="color:#e5c890">add</span><span style="color:#99d1db">(</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">edge</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]]++;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Queue</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">queue</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">LinkedList</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">numCourses</span><span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">==</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">offer</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">order</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">numCourses</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">index</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">while</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">isEmpty</span><span style="color:#99d1db">())</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e5c890">int</span> <span style="color:#babbf1">course</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">poll</span><span style="color:#99d1db">();</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">order</span><span style="color:#99d1db">[</span><span style="color:#babbf1">index</span><span style="color:#99d1db">++]</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">course</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">containsKey</span><span style="color:#99d1db">(</span><span style="color:#babbf1">course</span><span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">neighbor</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">adjList</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">course</span><span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">neighbor</span><span style="color:#99d1db">]--;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">indegree</span><span style="color:#99d1db">[</span><span style="color:#babbf1">neighbor</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">==</span> 0<span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#babbf1">queue</span><span style="color:#99d1db">.</span><span style="color:#e5c890">offer</span><span style="color:#99d1db">(</span><span style="color:#babbf1">neighbor</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">index</span> <span style="color:#99d1db">==</span> <span style="color:#babbf1">numCourses</span> <span style="color:#99d1db">?</span> <span style="color:#babbf1">order</span> <span style="color:#99d1db">:</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">];</span> <span style="color:#626880;font-style:italic">// No valid ordering if not all courses are included
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <br>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:a9870456321"><i
+                class="ti-mobile mr-3 text-primary"></i>a9870456321</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:sungpeihsuannccu@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>sungpeihsuannccu@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw==">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/pattysung1">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/japan%e6%97%a5%e6%9c%ac/">Japan日本</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/programming/">Programming</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/about/">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/works/">Works</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/travel/">Travel</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/contact/">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2023 <a href="https://pattysung1.github.io/">PattySung</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://pattysung1.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://pattysung1.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/mark.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://pattysung1.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

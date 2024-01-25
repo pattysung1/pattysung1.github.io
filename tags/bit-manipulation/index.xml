@@ -32,7 +32,7 @@ Note:</description>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-90/</guid>
-      <description>&amp;lt;解題&amp;gt; class Solution { public List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; subsets(int[] nums) { List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; result = new ArrayList&amp;lt;&amp;gt;(); List&amp;lt;Integer&amp;gt; numList = new ArrayList&amp;lt;&amp;gt;(); result.</description>
+      <description>&amp;lt;解題&amp;gt; class Solution { public List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; subsetsWithDup(int[] nums) { List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; ans = new ArrayList&amp;lt;&amp;gt;(); Arrays.</description>
     </item>
     
     <item>

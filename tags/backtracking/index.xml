@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backtracking on PattySung</title>
+    <link>https://pattysung1.github.io/tags/backtracking/</link>
+    <description>Recent content in backtracking on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/backtracking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-40. Combination Sum II</title>
+      <link>https://pattysung1.github.io/works/leetcode-40/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-40/</guid>
+      <description>Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-77. Combinations</title>
+      <link>https://pattysung1.github.io/works/leetcode-77/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-77/</guid>
+      <description>Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-39. Combination Sum</title>
+      <link>https://pattysung1.github.io/works/leetcode-39/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-39/</guid>
+      <description>Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,61 @@
     <description>Recent content in array on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-40. Combination Sum II</title>
+      <link>https://pattysung1.github.io/works/leetcode-40/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-40/</guid>
+      <description>Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-16. 3Sum Closest</title>
+      <link>https://pattysung1.github.io/works/leetcode-16/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-16/</guid>
+      <description>Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.</description>
+    </item>
+    
+    <item>
+      <title>253. Meeting Rooms II</title>
+      <link>https://pattysung1.github.io/works/leetcode-253/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-253/</guid>
+      <description>Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.</description>
+    </item>
+    
+    <item>
+      <title>283. Move Zeroes</title>
+      <link>https://pattysung1.github.io/works/leetcode-283/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-283/</guid>
+      <description>Given an integer array nums, move all 0&amp;rsquo;s to the end of it while maintaining the relative order of the non-zero elements.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-39. Combination Sum</title>
+      <link>https://pattysung1.github.io/works/leetcode-39/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-39/</guid>
+      <description>Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-75. Sort Colors</title>
+      <link>https://pattysung1.github.io/works/leetcode-75/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-75/</guid>
+      <description>Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.</description>
+    </item>
+    
     <item>
       <title>Leetcode-70. Climbing Stairs</title>
       <link>https://pattysung1.github.io/works/leetcode-70/</link>
@@ -126,6 +180,15 @@ A string b is a subset of string a if every letter in b occurs in a including mu
     </item>
     
     <item>
+      <title>Leetcode-977. Squares of a Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-977/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-977/</guid>
+      <description>Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-48. Rotate Image</title>
       <link>https://pattysung1.github.io/works/leetcode-48/</link>
       <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
@@ -159,6 +222,33 @@ A string b is a subset of string a if every letter in b occurs in a including mu
       
       <guid>https://pattysung1.github.io/works/leetcode-66/</guid>
       <description>You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-1971. Find if Path Exists in Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-2248/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-2248/</guid>
+      <description>Given a 2D integer array nums where nums[i] is a non-empty array of distinct positive integers, return the list of integers that are present in each array of nums sorted in ascending order.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-229. Majority Element II</title>
+      <link>https://pattysung1.github.io/works/leetcode-229/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-229/</guid>
+      <description>Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-252. Meeting Rooms</title>
+      <link>https://pattysung1.github.io/works/leetcode-252/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-252/</guid>
+      <description>Given an array of meeting time intervals where intervals[i] = [starti, endi], determine if a person could attend all meetings.</description>
     </item>
     
   </channel>

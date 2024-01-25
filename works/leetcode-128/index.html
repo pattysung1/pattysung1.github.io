@@ -158,6 +158,39 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 <pre tabindex="0"><code>Input: nums = [0,3,7,2,5,8,4,6,0,1]
 Output: 9
 </code></pre><h4 id="解題">&lt;解題&gt;</h4>
+<ol>
+<li>使用 HashSet 存儲陣列中的所有元素</li>
+<li>檢查它是否是一個連續序列的起點(即是否不存在比它小 1 的元素)</li>
+<li>如果是起點，則從這個起點開始向後查找(set.contains(currentNum))，計算連續序列的長度。</li>
+<li>更新最大長度，保留當前找到的最大連續序列長度</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">longestConsecutive</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">HashSet</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">set</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashSet</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">num</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">set</span><span style="color:#99d1db">.</span><span style="color:#e5c890">add</span><span style="color:#99d1db">(</span><span style="color:#babbf1">num</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">maxCount</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">num</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e5c890">int</span> <span style="color:#babbf1">currentNum</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">num</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e5c890">int</span> <span style="color:#babbf1">currSequence</span> <span style="color:#99d1db">=</span> 1<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">set</span><span style="color:#99d1db">.</span><span style="color:#e5c890">contains</span><span style="color:#99d1db">(</span><span style="color:#babbf1">num</span> <span style="color:#99d1db">-</span> 1<span style="color:#99d1db">)){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">while</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">set</span><span style="color:#99d1db">.</span><span style="color:#e5c890">contains</span><span style="color:#99d1db">(</span><span style="color:#babbf1">currentNum</span> <span style="color:#99d1db">+</span> 1<span style="color:#99d1db">)){</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">currentNum</span><span style="color:#99d1db">++;</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">currSequence</span><span style="color:#99d1db">++;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">maxCount</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">Math</span><span style="color:#99d1db">.</span><span style="color:#e5c890">max</span><span style="color:#99d1db">(</span><span style="color:#babbf1">maxCount</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">currSequence</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">maxCount</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><p>Time: O(n)
+Space: O(n)</p>
 <div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">longestConsecutive</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">nums</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
@@ -180,7 +213,7 @@ Output: 9
 </span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">maxCount</span><span style="color:#99d1db">;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
-</span></span></code></pre></div><p>Time: O(n)
+</span></span></code></pre></div><p>Time: O(nlog(n))
 Space: O(1)</p>
 
         </div>

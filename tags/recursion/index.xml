@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recursion on PattySung</title>
+    <link>https://pattysung1.github.io/tags/recursion/</link>
+    <description>Recent content in Recursion on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/recursion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-46. Permutations</title>
+      <link>https://pattysung1.github.io/works/leetcode-46/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-46/</guid>
+      <description>Given an array nums of distinct integers, return all the possible permutations.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hash Table on PattySung</title>
+    <link>https://pattysung1.github.io/tags/hash-table/</link>
+    <description>Recent content in Hash Table on PattySung</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/hash-table/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-380. Insert Delete GetRandom O(1)</title>
+      <link>https://pattysung1.github.io/works/leetcode-380/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-380/</guid>
+      <description>Implement the RandomizedSet class:
+RandomizedSet() Initializes the RandomizedSet object. bool insert(int val) Inserts an item val into the set if not present.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-383. Ransom Note</title>
+      <link>https://pattysung1.github.io/works/leetcode-383/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-383/</guid>
+      <description>Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -161,7 +161,7 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.</p>
 <div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[][]</span> <span style="color:#99d1db">merge</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[][]</span> <span style="color:#babbf1">intervals</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">intervals</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">&lt;=</span>1<span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">intervals</span> <span style="color:#99d1db">==</span> <span style="color:#ca9ee6;font-style:italic">null</span> <span style="color:#99d1db">||</span> <span style="color:#babbf1">intervals</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">&lt;=</span>1<span style="color:#99d1db">){</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">intervals</span><span style="color:#99d1db">;</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Arrays</span><span style="color:#99d1db">.</span><span style="color:#e5c890">sort</span><span style="color:#99d1db">(</span><span style="color:#babbf1">intervals</span><span style="color:#99d1db">,</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">arr1</span><span style="color:#99d1db">,</span><span style="color:#babbf1">arr2</span><span style="color:#99d1db">)-&gt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">.</span><span style="color:#e5c890">compare</span><span style="color:#99d1db">(</span><span style="color:#babbf1">arr1</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">],</span><span style="color:#babbf1">arr2</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]));</span>
@@ -179,14 +179,28 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.</p>
 </span></span><span style="display:flex;"><span>                <span style="color:#babbf1">current_interval</span><span style="color:#99d1db">[</span>1<span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">Math</span><span style="color:#99d1db">.</span><span style="color:#e5c890">max</span><span style="color:#99d1db">(</span><span style="color:#babbf1">current_end</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">next_end</span><span style="color:#99d1db">);</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span><span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>                <span style="color:#babbf1">current_interval</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">interval</span><span style="color:#99d1db">;</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">output_arr</span><span style="color:#99d1db">.</span><span style="color:#e5c890">add</span><span style="color:#99d1db">(</span><span style="color:#babbf1">interval</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">output_arr</span><span style="color:#99d1db">.</span><span style="color:#e5c890">add</span><span style="color:#99d1db">(</span><span style="color:#babbf1">current_interval</span><span style="color:#99d1db">);</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">output_arr</span><span style="color:#99d1db">.</span><span style="color:#e5c890">toArray</span><span style="color:#99d1db">(</span><span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">output_arr</span><span style="color:#99d1db">.</span><span style="color:#e5c890">size</span><span style="color:#99d1db">()][]);</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
-</span></span></code></pre></div><p>Time: O(n log n)
+</span></span></code></pre></div><p>Time: O(n log n) -&gt; 快速排序的平均時間複雜度為 O(n log n)
 Space: O(n)</p>
+<ol>
+<li>the Arrays.sort function is used to sort the intervals array using quicksort. The average time complexity of quicksort is O(n log n), where n is the number of intervals.</li>
+<li>the code iterates through the sorted array of intervals once to perform the merging operation. The operations performed during this traversal are linear, so the time complexity is O(n).</li>
+</ol>
+<h3 id="length-vs-size">length vs size()</h3>
+<p>在Java中，.length 和 .size() 是用來獲取集合（陣列、ArrayList等）的大小或元素個數的方式，但它們的使用情境不同，取決於你正在處理的數據結構。</p>
+<p>.length：</p>
+<p>.length 是一個數組的屬性，用於獲取數組的長度，也就是數組中元素的個數。
+它通常用於原生數組（例如 int[]、double[]）或多維數組，因為這些數組具有固定的大小，無法改變。
+例如，int[] arr = new int[5]; int length = arr.length; 用於獲取數組 arr 的長度，此處 length 將為5。
+.size()：</p>
+<p>.size() 是用於獲取集合類（例如ArrayList、List等）的方法，用於獲取集合中元素的個數。
+它通常用於集合類，因為這些類可以根據需要動態調整大小，所以 .size() 返回的是當前集合中的元素個數。
+例如，ArrayList<!-- raw HTML omitted --> list = new ArrayList&lt;&gt;(); int size = list.size(); 用於獲取ArrayList list 中元素的個數，此處 size 將一開始為0。</p>
 
         </div>
 

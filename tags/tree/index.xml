@@ -6,7 +6,52 @@
     <description>Recent content in tree on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 26 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-102. Binary Tree Level Order Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-102/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-102/</guid>
+      <description>Given the root of a binary tree, return the level order traversal of its nodes&amp;rsquo; values.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-105. Construct Binary Tree from Preorder and Inorder Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-105/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-105/</guid>
+      <description>Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-105. Construct Binary Tree from Preorder and Inorder Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-106/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-106/</guid>
+      <description>Given two integer arrays inorder and postorder where inorder is the inorder traversal of a binary tree and postorder is the postorder traversal of the same tree, construct and return the binary tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-542. 01 Matrix</title>
+      <link>https://pattysung1.github.io/works/leetcode-542/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-542/</guid>
+      <description>Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-560. Subarray Sum Equals K</title>
+      <link>https://pattysung1.github.io/works/leetcode-560/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-560/</guid>
+      <description>Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.</description>
+    </item>
+    
     <item>
       <title>Leetcode-701. Insert into a Binary Search Tree</title>
       <link>https://pattysung1.github.io/works/leetcode-701/</link>
@@ -52,15 +97,6 @@ struct Node { int val; Node *left; Node *right; Node *next; } Populate each next
       
       <guid>https://pattysung1.github.io/works/leetcode-230/</guid>
       <description>Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-105. Construct Binary Tree from Preorder and Inorder Traversal</title>
-      <link>https://pattysung1.github.io/works/leetcode-105/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-105/</guid>
-      <description>Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.</description>
     </item>
     
     <item>

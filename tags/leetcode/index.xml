@@ -6,7 +6,296 @@
     <description>Recent content in leetcode on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-496. Next Greater Element I</title>
+      <link>https://pattysung1.github.io/works/leetcode-496/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-496/</guid>
+      <description>The next greater element of some element x in an array is the first greater element that is to the right of x in the same array.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-739. Daily Temperatures</title>
+      <link>https://pattysung1.github.io/works/leetcode-739/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-739/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public int[] dailyTemperatures(int[] temperatures) { Deque&amp;lt;Integer&amp;gt; stack = new ArrayDeque&amp;lt;&amp;gt;(); // 創建一個整數陣列用來存儲每一天需要等待的天數 int[] res = new int[temperatures.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-150. Evaluate Reverse Polish Notation</title>
+      <link>https://pattysung1.github.io/works/leetcode-150/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-150/</guid>
+      <description>You are given an array of strings tokens that represents an arithmetic expression in a Reverse Polish Notation.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-716. Max Stack</title>
+      <link>https://pattysung1.github.io/works/leetcode-716/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-716/</guid>
+      <description>Design a max stack data structure that supports the stack operations and supports finding the stack&amp;rsquo;s maximum element.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-143. Reorder List</title>
+      <link>https://pattysung1.github.io/works/leetcode-143/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-143/</guid>
+      <description>You are given the head of a singly linked-list. The list can be represented as:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-78. Subsets</title>
+      <link>https://pattysung1.github.io/works/leetcode-78/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-78/</guid>
+      <description>Given an integer array nums of unique elements, return all possible subsets (the power set).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-216. Combination Sum III</title>
+      <link>https://pattysung1.github.io/works/leetcode-216/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-216/</guid>
+      <description>Find all valid combinations of k numbers that sum up to n such that the following conditions are true:</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-40. Combination Sum II</title>
+      <link>https://pattysung1.github.io/works/leetcode-40/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-40/</guid>
+      <description>Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-46. Permutations</title>
+      <link>https://pattysung1.github.io/works/leetcode-46/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-46/</guid>
+      <description>Given an array nums of distinct integers, return all the possible permutations.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-77. Combinations</title>
+      <link>https://pattysung1.github.io/works/leetcode-77/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-77/</guid>
+      <description>Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].</description>
+    </item>
+    
+    <item>
+      <title>328. Odd Even Linked List</title>
+      <link>https://pattysung1.github.io/works/leetcode-328/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-328/</guid>
+      <description>Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-146. LRU Cache</title>
+      <link>https://pattysung1.github.io/works/leetcode-146/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-146/</guid>
+      <description>Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-24. Swap Nodes in Pairs</title>
+      <link>https://pattysung1.github.io/works/leetcode-24/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-24/</guid>
+      <description>Given a linked list, swap every two adjacent nodes and return its head.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-380. Insert Delete GetRandom O(1)</title>
+      <link>https://pattysung1.github.io/works/leetcode-380/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-380/</guid>
+      <description>Implement the RandomizedSet class:
+RandomizedSet() Initializes the RandomizedSet object. bool insert(int val) Inserts an item val into the set if not present.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-383. Ransom Note</title>
+      <link>https://pattysung1.github.io/works/leetcode-383/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-383/</guid>
+      <description>Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-876. Middle of the Linked List</title>
+      <link>https://pattysung1.github.io/works/leetcode-876/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-876/</guid>
+      <description>Given the head of a singly linked list, return the middle node of the linked list.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-102. Binary Tree Level Order Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-102/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-102/</guid>
+      <description>Given the root of a binary tree, return the level order traversal of its nodes&amp;rsquo; values.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-105. Construct Binary Tree from Preorder and Inorder Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-105/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-105/</guid>
+      <description>Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-105. Construct Binary Tree from Preorder and Inorder Traversal</title>
+      <link>https://pattysung1.github.io/works/leetcode-106/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-106/</guid>
+      <description>Given two integer arrays inorder and postorder where inorder is the inorder traversal of a binary tree and postorder is the postorder traversal of the same tree, construct and return the binary tree.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-199. Binary Tree Right Side View</title>
+      <link>https://pattysung1.github.io/works/leetcode-199/</link>
+      <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-199/</guid>
+      <description>Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-210. Course Schedule II</title>
+      <link>https://pattysung1.github.io/works/leetcode-210/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-210/</guid>
+      <description>There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-787. Cheapest Flights Within K Stops</title>
+      <link>https://pattysung1.github.io/works/leetcode-787/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-787/</guid>
+      <description>&amp;lt;解題&amp;gt; Dijkstra&amp;rsquo;s algorithm: Dijkstra&amp;rsquo;s algorithm finds the shortest path between a given node (which is called the &amp;ldquo;source node&amp;rdquo;) and all other nodes in a graph.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-98. Validate Binary Search Tree</title>
+      <link>https://pattysung1.github.io/works/leetcode-98/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-98/</guid>
+      <description>Given the root of a binary tree, determine if it is a valid binary search tree (BST).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-207. Course Schedule</title>
+      <link>https://pattysung1.github.io/works/leetcode-207/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-207/</guid>
+      <description>There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-542. 01 Matrix</title>
+      <link>https://pattysung1.github.io/works/leetcode-542/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-542/</guid>
+      <description>Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-14. Longest Common Prefix</title>
+      <link>https://pattysung1.github.io/works/leetcode-14/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-14/</guid>
+      <description>Write a function to find the longest common prefix string amongst an array of strings.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-424. Longest Repeating Character Replacement</title>
+      <link>https://pattysung1.github.io/works/leetcode-424/</link>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-424/</guid>
+      <description>You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-16. 3Sum Closest</title>
+      <link>https://pattysung1.github.io/works/leetcode-16/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-16/</guid>
+      <description>Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.</description>
+    </item>
+    
+    <item>
+      <title>253. Meeting Rooms II</title>
+      <link>https://pattysung1.github.io/works/leetcode-253/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-253/</guid>
+      <description>Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.</description>
+    </item>
+    
+    <item>
+      <title>283. Move Zeroes</title>
+      <link>https://pattysung1.github.io/works/leetcode-283/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-283/</guid>
+      <description>Given an integer array nums, move all 0&amp;rsquo;s to the end of it while maintaining the relative order of the non-zero elements.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-39. Combination Sum</title>
+      <link>https://pattysung1.github.io/works/leetcode-39/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-39/</guid>
+      <description>Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-560. Subarray Sum Equals K</title>
+      <link>https://pattysung1.github.io/works/leetcode-560/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-560/</guid>
+      <description>Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.</description>
+    </item>
+    
     <item>
       <title>Leetcode-257. Binary Tree Paths</title>
       <link>https://pattysung1.github.io/works/leetcode-257/</link>
@@ -446,6 +735,15 @@ A string b is a subset of string a if every letter in b occurs in a including mu
     </item>
     
     <item>
+      <title>Leetcode-977. Squares of a Sorted Array</title>
+      <link>https://pattysung1.github.io/works/leetcode-977/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-977/</guid>
+      <description>Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-50. Pow(x, n)</title>
       <link>https://pattysung1.github.io/works/leetcode-50/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
@@ -460,7 +758,7 @@ A string b is a subset of string a if every letter in b occurs in a including mu
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-90/</guid>
-      <description>&amp;lt;解題&amp;gt; class Solution { public List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; subsets(int[] nums) { List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; result = new ArrayList&amp;lt;&amp;gt;(); List&amp;lt;Integer&amp;gt; numList = new ArrayList&amp;lt;&amp;gt;(); result.</description>
+      <description>&amp;lt;解題&amp;gt; class Solution { public List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; subsetsWithDup(int[] nums) { List&amp;lt;List&amp;lt;Integer&amp;gt;&amp;gt; ans = new ArrayList&amp;lt;&amp;gt;(); Arrays.</description>
     </item>
     
     <item>
@@ -636,6 +934,15 @@ struct Node { int val; Node *left; Node *right; Node *next; } Populate each next
     </item>
     
     <item>
+      <title>Leetcode-1971. Find if Path Exists in Graph</title>
+      <link>https://pattysung1.github.io/works/leetcode-2248/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-2248/</guid>
+      <description>Given a 2D integer array nums where nums[i] is a non-empty array of distinct positive integers, return the list of integers that are present in each array of nums sorted in ascending order.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-997. Find the Town Judge</title>
       <link>https://pattysung1.github.io/works/leetcode-997/</link>
       <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
@@ -651,15 +958,6 @@ struct Node { int val; Node *left; Node *right; Node *next; } Populate each next
       
       <guid>https://pattysung1.github.io/works/leetcode-230/</guid>
       <description>Given the root of a binary search tree, and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-105. Construct Binary Tree from Preorder and Inorder Traversal</title>
-      <link>https://pattysung1.github.io/works/leetcode-105/</link>
-      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-105/</guid>
-      <description>Given two integer arrays preorder and inorder where preorder is the preorder traversal of a binary tree and inorder is the inorder traversal of the same tree, construct and return the binary tree.</description>
     </item>
     
     <item>
@@ -773,6 +1071,15 @@ add(element): 將元素插入到佇列的尾部，如果成功插入，返回 tr
     </item>
     
     <item>
+      <title>Leetcode-229. Majority Element II</title>
+      <link>https://pattysung1.github.io/works/leetcode-229/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-229/</guid>
+      <description>Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-387. First Unique Character in a String</title>
       <link>https://pattysung1.github.io/works/leetcode-387/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
@@ -797,15 +1104,6 @@ add(element): 將元素插入到佇列的尾部，如果成功插入，返回 tr
       
       <guid>https://pattysung1.github.io/works/leetcode-704/</guid>
       <description>Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode-739. Daily Temperatures</title>
-      <link>https://pattysung1.github.io/works/leetcode-739/</link>
-      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://pattysung1.github.io/works/leetcode-739/</guid>
-      <description>&amp;lt;解題&amp;gt; </description>
     </item>
     
     <item>
@@ -872,7 +1170,7 @@ add(element): 將元素插入到佇列的尾部，如果成功插入，返回 tr
     </item>
     
     <item>
-      <title>Leetcode-151. Reverse Words in a String*</title>
+      <title>Leetcode-151. Reverse Words in a String</title>
       <link>https://pattysung1.github.io/works/leetcode-151/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
       
@@ -1007,6 +1305,15 @@ add(element): 將元素插入到佇列的尾部，如果成功插入，返回 tr
     </item>
     
     <item>
+      <title>Leetcode-252. Meeting Rooms</title>
+      <link>https://pattysung1.github.io/works/leetcode-252/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-252/</guid>
+      <description>Given an array of meeting time intervals where intervals[i] = [starti, endi], determine if a person could attend all meetings.</description>
+    </item>
+    
+    <item>
       <title>Leetcode-26. Remove Duplicates from Sorted Array</title>
       <link>https://pattysung1.github.io/works/leetcode-26/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
@@ -1076,6 +1383,15 @@ add(element): 將元素插入到佇列的尾部，如果成功插入，返回 tr
       
       <guid>https://pattysung1.github.io/works/leetcode-58/</guid>
       <description>Given a string s consisting of words and spaces, return the length of the last word in the string.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-981. Time Based Key-Value Store</title>
+      <link>https://pattysung1.github.io/works/leetcode-981/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-981/</guid>
+      <description>Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key&amp;rsquo;s value at a certain timestamp.</description>
     </item>
     
   </channel>

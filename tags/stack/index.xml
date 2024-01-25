@@ -6,7 +6,25 @@
     <description>Recent content in Stack on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-496. Next Greater Element I</title>
+      <link>https://pattysung1.github.io/works/leetcode-496/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-496/</guid>
+      <description>The next greater element of some element x in an array is the first greater element that is to the right of x in the same array.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-739. Daily Temperatures</title>
+      <link>https://pattysung1.github.io/works/leetcode-739/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-739/</guid>
+      <description>&amp;lt;解題&amp;gt; class Solution { public int[] dailyTemperatures(int[] temperatures) { Deque&amp;lt;Integer&amp;gt; stack = new ArrayDeque&amp;lt;&amp;gt;(); // 創建一個整數陣列用來存儲每一天需要等待的天數 int[] res = new int[temperatures.</description>
+    </item>
+    
     <item>
       <title>Leetcode-71. Simplify Path</title>
       <link>https://pattysung1.github.io/works/leetcode-71/</link>

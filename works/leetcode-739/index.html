@@ -141,7 +141,7 @@
           <span>By PattySung</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>09 July 2023</span>
+          <span>24 January 2024</span>
           
         </div>
         
@@ -149,7 +149,31 @@
         
         <div class="content mb-5">
           <h4 id="解題">&lt;解題&gt;</h4>
-<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#99d1db">dailyTemperatures</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">temperatures</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Deque</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">Integer</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">stack</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">ArrayDeque</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">// 創建一個整數陣列用來存儲每一天需要等待的天數
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">res</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span><span style="color:#babbf1">temperatures</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">// 遍歷溫度陣列
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">temperatures</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">// 使用 while 迴圈處理堆疊中的元素，直到堆疊為空或當前溫度不再大於堆疊頂部元素對應的溫度
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#ca9ee6">while</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">stack</span><span style="color:#99d1db">.</span><span style="color:#e5c890">isEmpty</span><span style="color:#99d1db">()</span> <span style="color:#99d1db">&amp;&amp;</span> <span style="color:#babbf1">temperatures</span><span style="color:#99d1db">[</span><span style="color:#babbf1">stack</span><span style="color:#99d1db">.</span><span style="color:#e5c890">peek</span><span style="color:#99d1db">()]</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">temperatures</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">])</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#626880;font-style:italic">// 從堆疊中彈出頂部元素的索引，記為 idx
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                <span style="color:#e5c890">int</span> <span style="color:#babbf1">idx</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">stack</span><span style="color:#99d1db">.</span><span style="color:#e5c890">pop</span><span style="color:#99d1db">();</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#626880;font-style:italic">// 計算當前索引 i 減去 idx，這代表需要等待的天數，將結果存儲在 res 陣列的 idx 位置
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>                <span style="color:#babbf1">res</span><span style="color:#99d1db">[</span><span style="color:#babbf1">idx</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">-</span> <span style="color:#babbf1">idx</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">// 將當前索引 i 壓入堆疊，以便之後比較
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#babbf1">stack</span><span style="color:#99d1db">.</span><span style="color:#e5c890">push</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">// 返回存儲了每一天需要等待的天數的 res 陣列
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">res</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div>
         </div>
 
         

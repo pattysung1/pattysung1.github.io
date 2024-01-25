@@ -167,6 +167,7 @@ Output: [[&#34;a&#34;]]
 <li>排序以作為key</li>
 <li>再轉回String -&gt; String.valueOf(str)</li>
 </ol>
+<h4 id="解法一">解法一</h4>
 <div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">&gt;&gt;</span> <span style="color:#99d1db">groupAnagrams</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">strs</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
@@ -188,7 +189,51 @@ Output: [[&#34;a&#34;]]
 </span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">ArrayList</span><span style="color:#99d1db">&lt;&gt;(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">values</span><span style="color:#99d1db">());</span> <span style="color:#626880;font-style:italic">//最後把map.values()的值，在新的ArrayList中回傳
 </span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>    <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
-</span></span></code></pre></div>
+</span></span></code></pre></div><h4 id="解法二">解法二</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">&gt;&gt;</span> <span style="color:#99d1db">groupAnagrams</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">strs</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Map</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">&gt;&gt;</span> <span style="color:#babbf1">map</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashMap</span><span style="color:#99d1db">&lt;&gt;();</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">String</span> <span style="color:#babbf1">s</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">strs</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">charCounts</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span>26<span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">// 统计字符串中每个字符的出现次数
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">char</span> <span style="color:#babbf1">c</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">toCharArray</span><span style="color:#99d1db">())</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">charCounts</span><span style="color:#99d1db">[</span><span style="color:#babbf1">c</span> <span style="color:#99d1db">-</span> <span style="color:#a6d189">&#39;a&#39;</span><span style="color:#99d1db">]++;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">// 将字符计数数组转换为唯一的字符串表示
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#babbf1">StringBuilder</span> <span style="color:#babbf1">sb</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">StringBuilder</span><span style="color:#99d1db">();</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">count</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">charCounts</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">sb</span><span style="color:#99d1db">.</span><span style="color:#e5c890">append</span><span style="color:#99d1db">(</span><span style="color:#babbf1">count</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">sb</span><span style="color:#99d1db">.</span><span style="color:#e5c890">append</span><span style="color:#99d1db">(</span><span style="color:#a6d189">&#39;#&#39;</span><span style="color:#99d1db">);</span> <span style="color:#626880;font-style:italic">// 使用 &#39;#&#39; 分隔字符计数
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">String</span> <span style="color:#babbf1">key</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">sb</span><span style="color:#99d1db">.</span><span style="color:#e5c890">toString</span><span style="color:#99d1db">();</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#626880;font-style:italic">// 将字符串添加到对应的分组中
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>            <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(!</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">containsKey</span><span style="color:#99d1db">(</span><span style="color:#babbf1">key</span><span style="color:#99d1db">))</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">put</span><span style="color:#99d1db">(</span><span style="color:#babbf1">key</span><span style="color:#99d1db">,</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">ArrayList</span><span style="color:#99d1db">&lt;&gt;());</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">get</span><span style="color:#99d1db">(</span><span style="color:#babbf1">key</span><span style="color:#99d1db">).</span><span style="color:#e5c890">add</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">ArrayList</span><span style="color:#99d1db">&lt;&gt;(</span><span style="color:#babbf1">map</span><span style="color:#99d1db">.</span><span style="color:#e5c890">values</span><span style="color:#99d1db">());</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><p>{
+&ldquo;1#0#0#0#1#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#&rdquo; =&gt; [&ldquo;eat&rdquo;, &ldquo;tea&rdquo;, &ldquo;ate&rdquo;],
+&ldquo;1#0#0#0#1#0#0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#0#&rdquo; =&gt; [&ldquo;tan&rdquo;, &ldquo;nat&rdquo;],
+&ldquo;0#0#0#0#0#1#0#0#0#0#0#0#0#0#0#0#0#0#0#1#0#0#0#0#0#0#&rdquo; =&gt; [&ldquo;bat&rdquo;]
+}</p>
+<p>map.values()-&gt;
+[
+[&ldquo;eat&rdquo;, &ldquo;tea&rdquo;, &ldquo;ate&rdquo;],
+[&ldquo;tan&rdquo;, &ldquo;nat&rdquo;],
+[&ldquo;bat&rdquo;]
+]</p>
+<p>Time: O(N * K * log(K))
+Space: O(N * K) //k is the longest length of String</p>
+
         </div>
 
         
