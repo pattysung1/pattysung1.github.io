@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>PattySung</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is Patty Sung&#39;s website.">
+  <meta name="author" content="PattySung">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.113.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://pattysung1.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://pattysung1.github.io/images/favicon.png " type="image/x-icon">
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VP4BXRRG1X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VP4BXRRG1X');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://pattysung1.github.io"><img class="img-fluid"
+          src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw=="><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/pattysung1"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://pattysung1.github.io"><img class="img-fluid"
+            src="https://pattysung1.github.io/images/shinylogo.png" alt="PattySung"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/works/">Works</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/travel/">Travel</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://pattysung1.github.io/contact/">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        
+        <a href="/categories/programming"
+          class="text-primary">Programming</a>
+        
+        <h2>Leetcode-139. Word Break</h2>
+        <div class="mb-3 post-meta">
+          <span>By PattySung</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>02 February 2024</span>
+          
+        </div>
+        
+        <img src="https://pattysung1.github.io/images/leetcode.jpg" class="img-fluid w-80 mb-4" alt="Leetcode-139. Word Break">
+        
+        <div class="content mb-5">
+          <p>Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.</p>
+<p>Note that the same word in the dictionary may be reused multiple times in the segmentation.</p>
+<p>Example 1:</p>
+<p>Input: s = &ldquo;leetcode&rdquo;, wordDict = [&ldquo;leet&rdquo;,&ldquo;code&rdquo;]
+Output: true
+Explanation: Return true because &ldquo;leetcode&rdquo; can be segmented as &ldquo;leet code&rdquo;.
+Example 2:</p>
+<p>Input: s = &ldquo;applepenapple&rdquo;, wordDict = [&ldquo;apple&rdquo;,&ldquo;pen&rdquo;]
+Output: true
+Explanation: Return true because &ldquo;applepenapple&rdquo; can be segmented as &ldquo;apple pen apple&rdquo;.
+Note that you are allowed to reuse a dictionary word.</p>
+<h4 id="解題一-dp--hashset存單詞">&lt;解題一&gt; Dp + hashSet存單詞</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">boolean</span> <span style="color:#99d1db">wordBreak</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">wordDict</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Set</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">wordDictSet</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#babbf1">HashSet</span><span style="color:#99d1db">(</span><span style="color:#babbf1">wordDict</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">dp</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">()</span> <span style="color:#99d1db">+</span> 1<span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">();</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">j</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">+</span>1<span style="color:#99d1db">;</span> <span style="color:#babbf1">j</span> <span style="color:#99d1db">&lt;=</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">();</span> <span style="color:#babbf1">j</span><span style="color:#99d1db">++){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">&amp;&amp;</span> <span style="color:#babbf1">wordDictSet</span><span style="color:#99d1db">.</span><span style="color:#e5c890">contains</span><span style="color:#99d1db">(</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">substring</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">,</span><span style="color:#babbf1">j</span><span style="color:#99d1db">))){</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span><span style="color:#babbf1">j</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">()];</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div><p>T: O(n^2 * m)
+S: O(n + m * k)，m 是字典中單詞的最大長度，k 是單詞的平均長度。</p>
+<h4 id="解題二-dp--直接看是否有對應的word長度">&lt;解題二&gt; Dp + 直接看是否有對應的word長度</h4>
+<div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">boolean</span> <span style="color:#99d1db">wordBreak</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">List</span><span style="color:#99d1db">&lt;</span><span style="color:#babbf1">String</span><span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">wordDict</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#626880;font-style:italic">// Set&lt;String&gt; wordDictSet = new HashSet(wordDict);
+</span></span></span><span style="display:flex;"><span><span style="color:#626880;font-style:italic"></span>        <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">dp</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">boolean</span><span style="color:#99d1db">[</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">()</span> <span style="color:#99d1db">+</span> 1<span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span>0<span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">&lt;</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">();</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">++){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(!</span><span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">])</span> <span style="color:#ca9ee6">continue</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#babbf1">String</span> <span style="color:#babbf1">word</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">wordDict</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#e5c890">int</span> <span style="color:#babbf1">j</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">i</span> <span style="color:#99d1db">+</span> <span style="color:#babbf1">word</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">();</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">j</span> <span style="color:#99d1db">&lt;=</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">()</span> <span style="color:#99d1db">&amp;&amp;</span> <span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">substring</span><span style="color:#99d1db">(</span><span style="color:#babbf1">i</span><span style="color:#99d1db">,</span><span style="color:#babbf1">j</span><span style="color:#99d1db">).</span><span style="color:#e5c890">equals</span><span style="color:#99d1db">(</span><span style="color:#babbf1">word</span><span style="color:#99d1db">)){</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span><span style="color:#babbf1">j</span><span style="color:#99d1db">]</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6;font-style:italic">true</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">dp</span><span style="color:#99d1db">[</span><span style="color:#babbf1">s</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">()];</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
+</span></span></code></pre></div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <br>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:a9870456321"><i
+                class="ti-mobile mr-3 text-primary"></i>a9870456321</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Taiwan</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:sungpeihsuannccu@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>sungpeihsuannccu@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://instagram.com/pooh.travel.blog?igshid=MjEwN2IyYWYwYw==">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/pattysung1">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/pei-hsuan-sung-4b3599153/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/japan%e6%97%a5%e6%9c%ac/">Japan日本</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/programming/">Programming</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/about/">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/works/">Works</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/travel/">Travel</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://pattysung1.github.io/contact/">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2023 <a href="https://pattysung1.github.io/">PattySung</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://pattysung1.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://pattysung1.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/mark.js"></script>
+
+<script src="https://pattysung1.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://pattysung1.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

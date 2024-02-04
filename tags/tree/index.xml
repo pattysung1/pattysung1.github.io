@@ -6,7 +6,34 @@
     <description>Recent content in tree on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-658. Find K Closest Elements</title>
+      <link>https://pattysung1.github.io/works/leetcode-658/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-658/</guid>
+      <description>Given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-692. Top K Frequent Words</title>
+      <link>https://pattysung1.github.io/works/leetcode-692/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-692/</guid>
+      <description>Given an array of strings words and an integer k, return the k most frequent strings.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-227. Basic Calculator II</title>
+      <link>https://pattysung1.github.io/works/leetcode-227/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-227/</guid>
+      <description>Given a string s which represents an expression, evaluate this expression and return its value.</description>
+    </item>
+    
     <item>
       <title>Leetcode-102. Binary Tree Level Order Traversal</title>
       <link>https://pattysung1.github.io/works/leetcode-102/</link>

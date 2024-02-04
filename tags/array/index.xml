@@ -6,7 +6,43 @@
     <description>Recent content in array on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-139. Word Break</title>
+      <link>https://pattysung1.github.io/works/leetcode-139/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-139/</guid>
+      <description>Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-973. K Closest Points to Origin</title>
+      <link>https://pattysung1.github.io/works/leetcode-973/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-973/</guid>
+      <description>Given an array of points where points[i] = [xi, yi] represents a point on the X-Y plane and an integer k, return the k closest points to the origin (0, 0).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-42. Trapping Rain Water</title>
+      <link>https://pattysung1.github.io/works/leetcode-42/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-42/</guid>
+      <description>Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-901. Online Stock Span</title>
+      <link>https://pattysung1.github.io/works/leetcode-901/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-901/</guid>
+      <description>Design an algorithm that collects daily price quotes for some stock and returns the span of that stock&amp;rsquo;s price for the current day.</description>
+    </item>
+    
     <item>
       <title>Leetcode-40. Combination Sum II</title>
       <link>https://pattysung1.github.io/works/leetcode-40/</link>

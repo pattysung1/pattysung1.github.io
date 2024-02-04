@@ -6,7 +6,43 @@
     <description>Recent content in string on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-973. K Closest Points to Origin</title>
+      <link>https://pattysung1.github.io/works/leetcode-973/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-973/</guid>
+      <description>Given an array of points where points[i] = [xi, yi] represents a point on the X-Y plane and an integer k, return the k closest points to the origin (0, 0).</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-362. Design Hit Counter</title>
+      <link>https://pattysung1.github.io/works/leetcode-362/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-362/</guid>
+      <description>Design a hit counter which counts the number of hits received in the past 5 minutes (i.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-735. Asteroid Collision</title>
+      <link>https://pattysung1.github.io/works/leetcode-735/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-735/</guid>
+      <description>We are given an array asteroids of integers representing asteroids in a row.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-901. Online Stock Span</title>
+      <link>https://pattysung1.github.io/works/leetcode-901/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-901/</guid>
+      <description>Design an algorithm that collects daily price quotes for some stock and returns the span of that stock&amp;rsquo;s price for the current day.</description>
+    </item>
+    
     <item>
       <title>Leetcode-716. Max Stack</title>
       <link>https://pattysung1.github.io/works/leetcode-716/</link>
@@ -113,7 +149,7 @@ class Solution { int maxDepth=-1; TreeNode result=null; public TreeNode subtreeW
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/leetcode-621/</guid>
-      <description>&amp;lt;解題&amp;gt; class Solution { public int leastInterval(char[] tasks, int n) { int[] char_map = new int[26]; for(char c: tasks){ char_map[c-&amp;#39;A&amp;#39;]++; } Arrays.</description>
+      <description>Given a characters array tasks, representing the tasks a CPU needs to do, where each letter represents a different task.</description>
     </item>
     
     <item>
@@ -200,6 +236,15 @@ substring in s.</description>
     
     <item>
       <title>Leetcode-647. Palindromic Substrings</title>
+      <link>https://pattysung1.github.io/works/leetcode-647-copy/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-647-copy/</guid>
+      <description>Given a string s, return the number of palindromic substrings in it.</description>
+    </item>
+    
+    <item>
+      <title>Leetcode-647. Palindromic Substrings</title>
       <link>https://pattysung1.github.io/works/leetcode-647/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       
@@ -267,7 +312,8 @@ substring in s.</description>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pattysung1.github.io/works/hashmap/</guid>
-      <description>資料來源：https://blog.csdn.net/q5706503/article/details/85122343</description>
+      <description>資料來源：https://blog.csdn.net/q5706503/article/details/85122343
+import java.util.*; public class MapExample { public static void main(String[] args) { // 創建一個Map，使用String作為鍵，Integer作為值 Map&amp;lt;String, Integer&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); // 添加一些鍵值對到Map中 map.</description>
     </item>
     
     <item>

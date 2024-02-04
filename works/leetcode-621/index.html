@@ -148,21 +148,53 @@
         <img src="https://pattysung1.github.io/images/leetcode.jpg" class="img-fluid w-80 mb-4" alt="Leetcode-621. Task Scheduler">
         
         <div class="content mb-5">
-          <h4 id="解題">&lt;解題&gt;</h4>
+          <p>Given a characters array tasks, representing the tasks a CPU needs to do, where each letter represents a different task. Tasks could be done in any order. Each task is done in one unit of time. For each unit of time, the CPU could complete either one task or just be idle.</p>
+<p>However, there is a non-negative integer n that represents the cooldown period between two same tasks (the same letter in the array), that is that there must be at least n units of time between any two same tasks.</p>
+<p>Return the least number of units of times that the CPU will take to finish all the given tasks.</p>
+<p>Example 1:</p>
+<p>Input: tasks = [&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;B&rdquo;,&ldquo;B&rdquo;,&ldquo;B&rdquo;], n = 2
+Output: 8
+Explanation:
+A -&gt; B -&gt; idle -&gt; A -&gt; B -&gt; idle -&gt; A -&gt; B
+There is at least 2 units of time between any two same tasks.
+Example 2:</p>
+<p>Input: tasks = [&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;B&rdquo;,&ldquo;B&rdquo;,&ldquo;B&rdquo;], n = 0
+Output: 6
+Explanation: On this case any permutation of size 6 would work since n = 0.
+[&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;B&rdquo;,&ldquo;B&rdquo;,&ldquo;B&rdquo;]
+[&ldquo;A&rdquo;,&ldquo;B&rdquo;,&ldquo;A&rdquo;,&ldquo;B&rdquo;,&ldquo;A&rdquo;,&ldquo;B&rdquo;]
+[&ldquo;B&rdquo;,&ldquo;B&rdquo;,&ldquo;B&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;]
+&hellip;
+And so on.
+Example 3:</p>
+<p>Input: tasks = [&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;A&rdquo;,&ldquo;B&rdquo;,&ldquo;C&rdquo;,&ldquo;D&rdquo;,&ldquo;E&rdquo;,&ldquo;F&rdquo;,&ldquo;G&rdquo;], n = 2
+Output: 16
+Explanation:
+One possible solution is
+A -&gt; B -&gt; C -&gt; A -&gt; D -&gt; E -&gt; A -&gt; F -&gt; G -&gt; A -&gt; idle -&gt; idle -&gt; A -&gt; idle -&gt; idle -&gt; A</p>
+<h4 id="解題">&lt;解題&gt;</h4>
 <div class="highlight"><pre tabindex="0" style="color:#ef9f76;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JAVA" data-lang="JAVA"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ca9ee6">class</span> <span style="color:#e5c890">Solution</span> <span style="color:#99d1db">{</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#ca9ee6">public</span> <span style="color:#e5c890">int</span> <span style="color:#99d1db">leastInterval</span><span style="color:#99d1db">(</span><span style="color:#e5c890">char</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">tasks</span><span style="color:#99d1db">,</span> <span style="color:#e5c890">int</span> <span style="color:#babbf1">n</span><span style="color:#99d1db">)</span> <span style="color:#99d1db">{</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">char_map</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span>26<span style="color:#99d1db">];</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">char</span> <span style="color:#babbf1">c</span><span style="color:#99d1db">:</span> <span style="color:#babbf1">tasks</span><span style="color:#99d1db">){</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">char_map</span><span style="color:#99d1db">[</span><span style="color:#babbf1">c</span><span style="color:#99d1db">-</span><span style="color:#a6d189">&#39;A&#39;</span><span style="color:#99d1db">]++;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span><span style="color:#99d1db">[]</span> <span style="color:#babbf1">dict</span> <span style="color:#99d1db">=</span> <span style="color:#ca9ee6">new</span> <span style="color:#e5c890">int</span><span style="color:#99d1db">[</span>26<span style="color:#99d1db">];</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span> <span style="color:#99d1db">(</span><span style="color:#e5c890">char</span> <span style="color:#babbf1">task</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">tasks</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">dict</span><span style="color:#99d1db">[</span><span style="color:#babbf1">task</span> <span style="color:#99d1db">-</span> <span style="color:#a6d189">&#39;A&#39;</span><span style="color:#99d1db">]++;</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#babbf1">Arrays</span><span style="color:#99d1db">.</span><span style="color:#e5c890">sort</span><span style="color:#99d1db">(</span><span style="color:#babbf1">char_map</span><span style="color:#99d1db">);</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">max_val</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">char_map</span><span style="color:#99d1db">[</span>25<span style="color:#99d1db">]-</span>1<span style="color:#99d1db">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">idle_slots</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">max_val</span> <span style="color:#99d1db">*</span> <span style="color:#babbf1">n</span><span style="color:#99d1db">;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">=</span>24<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">&gt;=</span>0<span style="color:#99d1db">;</span> <span style="color:#babbf1">i</span><span style="color:#99d1db">--){</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#babbf1">idle_slots</span> <span style="color:#99d1db">-=</span> <span style="color:#babbf1">Math</span><span style="color:#99d1db">.</span><span style="color:#e5c890">min</span><span style="color:#99d1db">(</span><span style="color:#babbf1">char_map</span><span style="color:#99d1db">[</span><span style="color:#babbf1">i</span><span style="color:#99d1db">],</span> <span style="color:#babbf1">max_val</span><span style="color:#99d1db">);</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">maxCount</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">maxCountSame</span> <span style="color:#99d1db">=</span> 0<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">for</span><span style="color:#99d1db">(</span><span style="color:#e5c890">int</span> <span style="color:#babbf1">num</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">dict</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ca9ee6">if</span><span style="color:#99d1db">(</span><span style="color:#babbf1">num</span> <span style="color:#99d1db">&gt;</span> <span style="color:#babbf1">maxCount</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">maxCount</span> <span style="color:#99d1db">=</span> <span style="color:#babbf1">num</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">maxCountSame</span> <span style="color:#99d1db">=</span> 1<span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span> <span style="color:#ca9ee6">else</span> <span style="color:#ca9ee6">if</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">num</span> <span style="color:#99d1db">==</span> <span style="color:#babbf1">maxCount</span><span style="color:#99d1db">){</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#babbf1">maxCountSame</span><span style="color:#99d1db">++;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#99d1db">}</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">idle_slots</span><span style="color:#99d1db">&gt;</span>0 <span style="color:#99d1db">?</span> <span style="color:#babbf1">idle_slots</span> <span style="color:#99d1db">+</span> <span style="color:#babbf1">tasks</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span> <span style="color:#99d1db">:</span> <span style="color:#babbf1">tasks</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c890">int</span> <span style="color:#babbf1">res</span> <span style="color:#99d1db">=</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">maxCount</span> <span style="color:#99d1db">-</span> 1<span style="color:#99d1db">)</span> <span style="color:#99d1db">*</span> <span style="color:#99d1db">(</span><span style="color:#babbf1">n</span> <span style="color:#99d1db">+</span> 1<span style="color:#99d1db">)</span> <span style="color:#99d1db">+</span> <span style="color:#babbf1">maxCountSame</span><span style="color:#99d1db">;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ca9ee6">return</span> <span style="color:#babbf1">Math</span><span style="color:#99d1db">.</span><span style="color:#e5c890">max</span><span style="color:#99d1db">(</span><span style="color:#babbf1">res</span><span style="color:#99d1db">,</span> <span style="color:#babbf1">tasks</span><span style="color:#99d1db">.</span><span style="color:#e5c890">length</span><span style="color:#99d1db">);</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#99d1db">}</span>
 </span></span><span style="display:flex;"><span><span style="color:#99d1db">}</span>
 </span></span></code></pre></div><p>Time: O(n)

@@ -6,7 +6,16 @@
     <description>Recent content in linked List on PattySung</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 22 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pattysung1.github.io/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode-844. Backspace String Compare</title>
+      <link>https://pattysung1.github.io/works/leetcode-844/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pattysung1.github.io/works/leetcode-844/</guid>
+      <description>Given two strings s and t, return true if they are equal when both are typed into empty text editors.</description>
+    </item>
+    
     <item>
       <title>Leetcode-143. Reorder List</title>
       <link>https://pattysung1.github.io/works/leetcode-143/</link>
